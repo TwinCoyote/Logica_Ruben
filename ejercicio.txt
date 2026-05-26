@@ -1,3 +1,0 @@
-manzana,4,100 
- platano,3,400 
- zanahoria,6,500
