@@ -275,24 +275,95 @@ romanos = {
 #     print(cuenta)
 
 
-def romanos_int(x):
-    x = x.upper()
-    # ? Separando
-    temp = 0
-    cuenta = 0
-    for i in x[::-1]:
-        if i in romanos:
-            m = int(romanos[i])
-            if m < temp:
-                cuenta -= m
-            else:
-                cuenta += m
-            temp = m
-    return cuenta
+# def romanos_int(x):
+#     x = x.upper()
+#     # ? Separando
+#     temp = 0
+#     cuenta = 0
+#     for i in x[::-1]:
+#         if i in romanos:
+#             m = int(romanos[i])
+#             if m < temp:
+#                 cuenta -= m
+#             else:
+#                 cuenta += m
+#             temp = m
+#     return cuenta
 
 
-print(romanos_int("MCMXCIV"))
+# print(romanos_int("MCMXCIV"))
 
 # F = len("hola")
 # for i in range(F, -1, -1):
 #     print(list(i))
+
+
+strs = ["flower", "flow", "flight"]
+
+
+# print(strs[1])
+
+# [print(list(i)) for i in strs[1]]
+
+# acumulador = []
+
+
+# def acumular(s: list[str]):
+#     referencia = s[0]
+
+#     for i in referencia:
+#         letra =
+
+
+# print(strs[1:])
+
+
+# reverse = "The greatest victory is that which requires no battle"
+# def voletar(s):
+#     n = s.split()
+#     palabra = ""
+#     for i in range(len(n) - 1, -1, -1):
+#         palabra += n[i] + " "
+#     return palabra.strip()
+
+
+# x = "yoda doesn't speak like this"
+# print(voletar(x))
+
+# pal = "Hello"
+
+
+# def volt(pal):
+#     return pal[::-1]
+
+
+# print(volt(pal))
+
+# def create_phone_number(n: list[int]):
+#     if len(n) > 10 or len(n) < 10:
+#         return "Formato incorrecto, revisa el numero"
+#     # codigo = n[0:2]
+#     return f"{n[0:3]} {n[3:6]}-{n[6:]}"
+
+
+# def create_phone_number(n: list[int]):
+#     if len(n) > 10 or len(n) < 10:
+#         return "Formato incorrecto, revisa el numero"
+#     numero = ""
+#     for i in n:
+#         numero += str(i)
+#     return f"({numero[0:3]}) {numero[3:6]}-{numero[6:]}"
+
+
+# print(create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
+
+
+# string = "12334e"
+
+
+# def filter_numbers(string):
+#     return "".join(x for x in string if not x.isdigit())
+
+
+# print(filter_numbers(string))
+
