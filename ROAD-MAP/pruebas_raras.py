@@ -224,6 +224,7 @@
 # print(palin(x))
 
 
+import unicodedata
 romanos = {
     'I': 1,
     'V': 5,
@@ -366,4 +367,22 @@ strs = ["flower", "flow", "flight"]
 
 
 # print(filter_numbers(string))
+
+# dict = {}
+# # dict[1] = "Nombre"
+# dict[1] = {
+#     "titulo": "Ruben",
+#     "descripcion": "hola"
+# }
+# dict[2] = {
+#     "titulo": "Ruben",
+#     "descripcion": "hola"
+# }
+# print(dict[2]["titulo"])
+
+# with open("Archivo_prueba_ruben.py", "w", encoding="utf-8") as archivo:
+#     archivo.write("#Hola Ruben")
+
+
+texto: "EL FAMOSO \FIZZ BUZZ\"
 
