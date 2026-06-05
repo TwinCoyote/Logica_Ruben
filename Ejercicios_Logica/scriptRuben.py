@@ -1,4 +1,4 @@
-"""Primer Proyecto de Web Scrapping para retos de programacion automatica"""
+'''Primer Proyecto de Web Scrapping para retos de programacion automatica'''
 # pylint: disable = E0001, C0103, C0114,C0115, C0116,W0622,W3101
 import unicodedata
 import requests
@@ -23,6 +23,8 @@ def scrapper_reto() -> str:
     for reto in ejercicios:
         titulo = reto.find('h2', class_='css-1fpdnih')
         descripcion = reto.find('code')
+        if not titulo or not descripcion:
+            continue
         NReto = reto.find('h2')  # Es el numero de reto en str
         # Es el numero de reto en int
         Numero = int(NReto.text.replace("#", ""))
@@ -31,11 +33,13 @@ def scrapper_reto() -> str:
             'ASCII', 'ignore').decode('utf-8')  # * Se limpio de acentos
         limpio = acentos.replace("¿", "").replace(
             "?", "").replace('"', "").replace(" ", "_")
+        descripcion_comentada = descripcion.text.strip().replace(
+            "\n", "\n#").replace("*/", "").replace("/*", "")
 
         banco_de_retos[Numero] = {
 
             "nombre": limpio,
-            "descripcion": descripcion.text.strip()
+            "descripcion": descripcion_comentada.strip("/* \n")
         }
 
     # TODO: Hacer una opcion para traer los retos, actualizar la base y otra para solo generar el archivo
@@ -43,22 +47,28 @@ def scrapper_reto() -> str:
     with open("Retos_programacion.json", "w", encoding="utf-8") as archivo:
         try:
             json.dump(banco_de_retos, archivo, indent=4)
-        except KeyError as e:
-            print(f"Ha ocurrido un error {e}")
+        except Exception as e:
+            return f"Ha ocurrido un error {e}"
     return "Exito, se Han extraido los retos Correctamente!"
 
 
-# def buscar_reto(numero)
-# with open("Retos_programacion.json", "r", encoding="utf-8") as retos:
-#     x = json.load(retos)
-#     print(f"#{1}")
-#     print(x["1"]["nombre"])
-#     print(x["1"]["descripcion"])
+def buscar_reto(numero: int) -> str:
+    """Busca el reto en el Json y entrega un archivo con toda la info"""
+    numero = str(numero)
+    with open("Retos_programacion.json", "r", encoding="utf-8") as retos:
+        lineas = json.load(retos)
+        nombre = lineas[numero]["nombre"]
+        descripcion = lineas[numero]["descripcion"]
 
-# def archivo_python(direccion,nombre):
-#     nombre=
-
-#     with open(f"{nombre}.py")
+        numero = int(numero)
+        with open(f"{numero}_{nombre}.py", "w", encoding="utf-8") as archivo:
+            archivo.write(f"'''{nombre}'''\n")
+            archivo.write(
+                "# pylint: disable = E0001, C0103, C0114,C0115, C0116,W0622,W3101\n")
+            # No presentar el primer y ulitmo caracter porque es un '#' vacio
+            archivo.write(f"#{descripcion[1:-1]}")
+    return "Exito"
 
 
 print(scrapper_reto())
+print(buscar_reto(35))
