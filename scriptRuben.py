@@ -5,6 +5,7 @@ import requests
 import os
 from bs4 import BeautifulSoup
 import json
+import sys
 
 
 def scrapper_reto() -> str:
@@ -14,7 +15,7 @@ def scrapper_reto() -> str:
     respuesta = requests.get(url)
 
     if respuesta.status_code != 200:
-        print("Error al hacer la peticion")
+        return f"Error al hacer la petición. Código HTTP: {respuesta.status_code}"
 
     soup = BeautifulSoup(respuesta.text, 'html.parser')
 
@@ -36,8 +37,6 @@ def scrapper_reto() -> str:
         for i in excluir:
             acentos = acentos.replace(i, "")
         limpio = acentos.lower().capitalize()
-        # limpio = acentos.replace("¿", "").replace(
-        #     "?", "").replace('"', "").replace(" ", "_").lower().capitalize()
         descripcion_comentada = descripcion.text.strip().replace(
             "\n", "\n#").replace("*/", "").replace("/*", "")
 
@@ -57,16 +56,16 @@ def buscar_reto(numero: int) -> str:
     try:
         carpeta_destino = "Ejercicios_Logica"
         if not os.path.exists(carpeta_destino):
-            os.makedirs(carpeta_destino)
+            os.makedirs(carpeta_destino, exist_ok=True)
         numero = str(numero)
         with open("Retos_programacion.json", "r", encoding="utf-8") as retos:
             lineas = json.load(retos)
             nombre = lineas[numero]["nombre"]
             descripcion = lineas[numero]["descripcion"]
             numero = int(numero)
-            nombre_archivo = f"{numero}_{nombre}.py"
+            nombre_archivo = limpiar_nombre_archivo(f"{numero}_{nombre}.py")
             ruta_completa = os.path.join(carpeta_destino, nombre_archivo)
-            if ruta_completa:
+            if os.path.exists(ruta_completa):
                 return "Ya hay un archivo asi creado"
             with open(ruta_completa, "w", encoding="utf-8") as archivo:
                 archivo.write(f"'''{nombre.replace("_", " ")}'''\n")
@@ -81,5 +80,41 @@ def buscar_reto(numero: int) -> str:
         return f"No se pueden usar letras {numero}"
 
 
-print(scrapper_reto())
-print(buscar_reto(43))
+def limpiar_nombre_archivo(nombre: str) -> str:
+    """Elimina caracteres inválidos para nombres de archivo en Windows."""
+    caracteres_invalidos = '<>:"/\\|?*'
+    for caracter in caracteres_invalidos:
+        nombre = nombre.replace(caracter, "")
+    return nombre.strip()
+
+
+def print_banner(titulo: str) -> None:
+    linea = "=" * 60
+    print(f"\n{linea}\n{titulo}\n{linea}")
+
+
+def print_estado(mensaje: str, exito: bool = True) -> None:
+    etiqueta = "[OK]" if exito else "[ERROR]"
+    print(f"{etiqueta} {mensaje}\n")
+
+
+if __name__ == "__main__":
+    print_banner("Scrapper de Retos de Programación")
+    resultado_scrapper = scrapper_reto()
+    print_estado(resultado_scrapper,
+                 exito=resultado_scrapper.startswith("Exito"))
+
+    if len(sys.argv) > 1:
+        argumento = sys.argv[1]
+        print_banner(f"Generando archivo para el reto {argumento}")
+
+        try:
+            numero_reto = int(argumento)
+            resultado = buscar_reto(numero_reto)
+            print_estado(resultado, exito=resultado == "Exito")
+            if resultado == "Exito":
+                print("Archivo generado en la carpeta: Ejercicios_Logica\n")
+        except ValueError:
+            print_estado(f"Error: '{argumento}' no es valido.", exito=False)
+    else:
+        print("Por favor, introduce el número del reto. Ejemplo: python scriptRuben.py 4")
