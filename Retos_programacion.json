@@ -1,402 +1,402 @@
 {
     "1": {
-        "nombre": "EL_FAMOSO_FIZZ_BUZZ",
+        "nombre": "El_famoso_fizz_buzz",
         "descripcion": "# * Escribe un programa que muestre por consola (con un print) los\n# * n\u00fameros de 1 a 100 (ambos incluidos y con un salto de l\u00ednea entre\n# * cada impresi\u00f3n), sustituyendo los siguientes:\n# * - M\u00faltiplos de 3 por la palabra \"fizz\".\n# * - M\u00faltiplos de 5 por la palabra \"buzz\".\n# * - M\u00faltiplos de 3 y de 5 a la vez por la palabra \"fizzbuzz\".\n#"
     },
     "2": {
-        "nombre": "ES_UN_ANAGRAMA",
+        "nombre": "Es_un_anagrama",
         "descripcion": "# * Escribe una funci\u00f3n que reciba dos palabras (String) y retorne\n# * verdadero o falso (Bool) seg\u00fan sean o no anagramas.\n# * - Un Anagrama consiste en formar una palabra reordenando TODAS\n# *   las letras de otra palabra inicial.\n# * - NO hace falta comprobar que ambas palabras existan.\n# * - Dos palabras exactamente iguales no son anagrama.\n#"
     },
     "3": {
-        "nombre": "LA_SUCESION_DE_FIBONACCI",
+        "nombre": "La_sucesion_de_fibonacci",
         "descripcion": "# * Escribe un programa que imprima los 50 primeros n\u00fameros de la sucesi\u00f3n\n# * de Fibonacci empezando en 0.\n# * - La serie Fibonacci se compone por una sucesi\u00f3n de n\u00fameros en\n# *   la que el siguiente siempre es la suma de los dos anteriores.\n# *   0, 1, 1, 2, 3, 5, 8, 13...\n#"
     },
     "4": {
-        "nombre": "ES_UN_NUMERO_PRIMO",
+        "nombre": "Es_un_numero_primo",
         "descripcion": "# * Escribe un programa que se encargue de comprobar si un n\u00famero es o no primo.\n# * Hecho esto, imprime los n\u00fameros primos entre 1 y 100.\n#"
     },
     "5": {
-        "nombre": "AREA_DE_UN_POLIGONO",
+        "nombre": "Area_de_un_poligono",
         "descripcion": "# * Crea una \u00fanica funci\u00f3n (importante que s\u00f3lo sea una) que sea capaz\n# * de calcular y retornar el \u00e1rea de un pol\u00edgono.\n# * - La funci\u00f3n recibir\u00e1 por par\u00e1metro s\u00f3lo UN pol\u00edgono a la vez.\n# * - Los pol\u00edgonos soportados ser\u00e1n Tri\u00e1ngulo, Cuadrado y Rect\u00e1ngulo.\n# * - Imprime el c\u00e1lculo del \u00e1rea de un pol\u00edgono de cada tipo.\n#"
     },
     "6": {
-        "nombre": "ASPECT_RATIO_DE_UNA_IMAGEN",
+        "nombre": "Aspect_ratio_de_una_imagen",
         "descripcion": "# * Crea un programa que se encargue de calcular el aspect ratio de una\n# * imagen a partir de una url.\n# * - Url de ejemplo:\n# *   https://raw.githubusercontent.com/mouredevmouredev/master/mouredev_github_profile.png\n# * - Por ratio hacemos referencia por ejemplo a los \"16:9\" de una\n# *   imagen de 1920*1080px.\n#"
     },
     "7": {
-        "nombre": "INVIRTIENDO_CADENAS",
+        "nombre": "Invirtiendo_cadenas",
         "descripcion": "# * Crea un programa que invierta el orden de una cadena de texto\n# * sin usar funciones propias del lenguaje que lo hagan de forma autom\u00e1tica.\n# * - Si le pasamos \"Hola mundo\" nos retornar\u00eda \"odnum aloH\"\n#"
     },
     "8": {
-        "nombre": "CONTANDO_PALABRAS",
+        "nombre": "Contando_palabras",
         "descripcion": "# * Crea un programa que cuente cuantas veces se repite cada palabra\n# * y que muestre el recuento final de todas ellas.\n# * - Los signos de puntuaci\u00f3n no forman parte de la palabra.\n# * - Una palabra es la misma aunque aparezca en may\u00fasculas y min\u00fasculas.\n# * - No se pueden utilizar funciones propias del lenguaje que\n# *   lo resuelvan autom\u00e1ticamente.\n#"
     },
     "9": {
-        "nombre": "DECIMAL_A_BINARIO",
+        "nombre": "Decimal_a_binario",
         "descripcion": "# * Crea un programa se encargue de transformar un n\u00famero\n# * decimal a binario sin utilizar funciones propias del lenguaje que lo hagan directamente.\n#"
     },
     "10": {
-        "nombre": "CODIGO_MORSE",
+        "nombre": "Codigo_morse",
         "descripcion": "# * Crea un programa que sea capaz de transformar texto natural a c\u00f3digo\n# * morse y viceversa.\n# * - Debe detectar autom\u00e1ticamente de qu\u00e9 tipo se trata y realizar\n# *   la conversi\u00f3n.\n# * - En morse se soporta raya \"\u2014\", punto \".\", un espacio \" \" entre letras\n# *   o s\u00edmbolos y dos espacios entre palabras \"  \".\n# * - El alfabeto morse soportado ser\u00e1 el mostrado en\n# *   https://es.wikipedia.org/wiki/C\u00f3digo_morse.\n#"
     },
     "11": {
-        "nombre": "EXPRESIONES_EQUILIBRADAS",
+        "nombre": "Expresiones_equilibradas",
         "descripcion": "# * Crea un programa que comprueba si los par\u00e9ntesis, llaves y corchetes\n# * de una expresi\u00f3n est\u00e1n equilibrados.\n# * - Equilibrado significa que estos delimitadores se abren y cieran\n# *   en orden y de forma correcta.\n# * - Par\u00e9ntesis, llaves y corchetes son igual de prioritarios.\n# *   No hay uno m\u00e1s importante que otro.\n# * - Expresi\u00f3n balanceada: { [ a * ( c + d ) ] - 5 }\n# * - Expresi\u00f3n no balanceada: { a * ( c + d ) ] - 5 }\n#"
     },
     "12": {
-        "nombre": "ELIMINANDO_CARACTERES",
+        "nombre": "Eliminando_caracteres",
         "descripcion": "# * Crea una funci\u00f3n que reciba dos cadenas como par\u00e1metro (str1, str2)\n# * e imprima otras dos cadenas como salida (out1, out2).\n# * - out1 contendr\u00e1 todos los caracteres presentes en la str1 pero NO\n# *   est\u00e9n presentes en str2.\n# * - out2 contendr\u00e1 todos los caracteres presentes en la str2 pero NO\n# *   est\u00e9n presentes en str1.\n#"
     },
     "13": {
-        "nombre": "ES_UN_PALINDROMO",
+        "nombre": "Es_un_palindromo",
         "descripcion": "# * Escribe una funci\u00f3n que reciba un texto y retorne verdadero o\n# * falso (Boolean) seg\u00fan sean o no pal\u00edndromos.\n# * Un Pal\u00edndromo es una palabra o expresi\u00f3n que es igual si se lee\n#  * de izquierda a derecha que de derecha a izquierda.\n# * NO se tienen en cuenta los espacios, signos de puntuaci\u00f3n y tildes.\n# * Ejemplo: Ana lleva al oso la avellana.\n#"
     },
     "14": {
-        "nombre": "FACTORIAL_RECURSIVO",
+        "nombre": "Factorial_recursivo",
         "descripcion": "# * Escribe una funci\u00f3n que calcule y retorne el factorial de un n\u00famero dado\n# * de forma recursiva.\n#"
     },
     "15": {
-        "nombre": "ES_UN_NUMERO_DE_ARMSTRONG",
+        "nombre": "Es_un_numero_de_armstrong",
         "descripcion": "# * Escribe una funci\u00f3n que calcule si un n\u00famero dado es un n\u00famero de Armstrong\n# * (o tambi\u00e9n llamado narcisista).\n# * Si no conoces qu\u00e9 es un n\u00famero de Armstrong, debes buscar informaci\u00f3n\n# * al respecto.\n#"
     },
     "16": {
-        "nombre": "CUANTOS_DIAS",
+        "nombre": "Cuantos_dias",
         "descripcion": "# * Crea una funci\u00f3n que calcule y retorne cu\u00e1ntos d\u00edas hay entre dos cadenas\n# * de texto que representen fechas.\n# * - Una cadena de texto que representa una fecha tiene el formato \"dd/MM/yyyy\".\n# * - La funci\u00f3n recibir\u00e1 dos String y retornar\u00e1 un Int.\n# * - La diferencia en d\u00edas ser\u00e1 absoluta (no importa el orden de las fechas).\n# * - Si una de las dos cadenas de texto no representa una fecha correcta se\n# *   lanzar\u00e1 una excepci\u00f3n.\n#"
     },
     "17": {
-        "nombre": "EN_MAYUSCULA",
+        "nombre": "En_mayuscula",
         "descripcion": "# * Crea una funci\u00f3n que reciba un String de cualquier tipo y se encargue de\n# * poner en may\u00fascula la primera letra de cada palabra.\n# * - No se pueden utilizar operaciones del lenguaje que\n# *   lo resuelvan directamente.\n#"
     },
     "18": {
-        "nombre": "LA_CARRERA_DE_OBSTACULOS",
+        "nombre": "La_carrera_de_obstaculos",
         "descripcion": "# * Crea una funci\u00f3n que eval\u00fae si un/a atleta ha superado correctamente una\n# * carrera de obst\u00e1culos.\n# * - La funci\u00f3n recibir\u00e1 dos par\u00e1metros:\n# *      - Un array que s\u00f3lo puede contener String con las palabras\n# *        \"run\" o \"jump\"\n# *      - Un String que represente la pista y s\u00f3lo puede contener \"_\" (suelo)\n# *        o \"|\" (valla)\n# * - La funci\u00f3n imprimir\u00e1 c\u00f3mo ha finalizado la carrera:\n# *      - Si el/a atleta hace \"run\" en \"_\" (suelo) y \"jump\" en \"|\" (valla)\n# *        ser\u00e1 correcto y no variar\u00e1 el s\u00edmbolo de esa parte de la pista.\n# *      - Si hace \"jump\" en \"_\" (suelo), se variar\u00e1 la pista por \"x\".\n# *      - Si hace \"run\" en \"|\" (valla), se variar\u00e1 la pista por \"/\".\n# * - La funci\u00f3n retornar\u00e1 un Boolean que indique si ha superado la carrera.\n# * Para ello tiene que realizar la opci\u00f3n correcta en cada tramo de la pista.\n#"
     },
     "19": {
-        "nombre": "TRES_EN_RAYA",
+        "nombre": "Tres_en_raya",
         "descripcion": "# * Crea una funci\u00f3n que analice una matriz 3x3 compuesta por \"X\" y \"O\"\n# * y retorne lo siguiente:\n# * - \"X\" si han ganado las \"X\"\n# * - \"O\" si han ganado los \"O\"\n# * - \"Empate\" si ha habido un empate\n# * - \"Nulo\" si la proporci\u00f3n de \"X\", de \"O\", o de la matriz no es correcta.\n# *   O si han ganado los 2.\n# * Nota: La matriz puede no estar totalmente cubierta.\n# * Se podr\u00eda representar con un vac\u00edo \"\", por ejemplo.\n#"
     },
     "20": {
-        "nombre": "CONVERSOR_TIEMPO",
+        "nombre": "Conversor_tiempo",
         "descripcion": "# * Crea una funci\u00f3n que reciba d\u00edas, horas, minutos y segundos (como enteros)\n# * y retorne su resultado en milisegundos.\n#"
     },
     "21": {
-        "nombre": "PARANDO_EL_TIEMPO",
+        "nombre": "Parando_el_tiempo",
         "descripcion": "# * Crea una funci\u00f3n que sume 2 n\u00fameros y retorne su resultado pasados\n# * unos segundos.\n# * - Recibir\u00e1 por par\u00e1metros los 2 n\u00fameros a sumar y los segundos que\n# *   debe tardar en finalizar su ejecuci\u00f3n.\n# * - Si el lenguaje lo soporta, deber\u00e1 retornar el resultado de forma\n# *   as\u00edncrona, es decir, sin detener la ejecuci\u00f3n del programa principal.\n# *   Se podr\u00eda ejecutar varias veces al mismo tiempo.\n#"
     },
     "22": {
-        "nombre": "CALCULADORA_.TXT",
+        "nombre": "Calculadora_.txt",
         "descripcion": "# * Lee el fichero \"Challenge21.txt\" incluido en el proyecto, calcula su\n# * resultado e impr\u00edmelo.\n# * - El .txt se corresponde con las entradas de una calculadora.\n# * - Cada l\u00ednea tendr\u00e1 un n\u00famero o una operaci\u00f3n representada por un\n# *   s\u00edmbolo (alternando ambos).\n# * - Soporta n\u00fameros enteros y decimales.\n# * - Soporta las operaciones suma \"+\", resta \"-\", multiplicaci\u00f3n \"*\"\n# *   y divisi\u00f3n \"/\".\n# * - El resultado se muestra al finalizar la lectura de la \u00faltima\n# *   l\u00ednea (si el .txt es correcto).\n# * - Si el formato del .txt no es correcto, se indicar\u00e1 que no se han\n# *   podido resolver las operaciones.\n#"
     },
     "23": {
-        "nombre": "CONJUNTOS",
+        "nombre": "Conjuntos",
         "descripcion": "# * Crea una funci\u00f3n que reciba dos array, un booleano y retorne un array.\n# * - Si el booleano es verdadero buscar\u00e1 y retornar\u00e1 los elementos comunes\n# *   de los dos array.\n# * - Si el booleano es falso buscar\u00e1 y retornar\u00e1 los elementos no comunes\n# *   de los dos array.\n# * - No se pueden utilizar operaciones del lenguaje que\n# *   lo resuelvan directamente.\n#"
     },
     "24": {
-        "nombre": "MAXIMO_COMUN_DIVISOR_Y_MINIMO_COMUN_MULTIPLO",
+        "nombre": "Maximo_comun_divisor_y_minimo_comun_multiplo",
         "descripcion": "# * Crea dos funciones, una que calcule el m\u00e1ximo com\u00fan divisor (MCD) y otra\n# * que calcule el m\u00ednimo com\u00fan m\u00faltiplo (mcm) de dos n\u00fameros enteros.\n# * - No se pueden utilizar operaciones del lenguaje que\n# *   lo resuelvan directamente.\n#"
     },
     "25": {
-        "nombre": "ITERATION_MASTER",
+        "nombre": "Iteration_master",
         "descripcion": "# * Quiero contar del 1 al 100 de uno en uno (imprimiendo cada uno).\n# * \u00bfDe cu\u00e1ntas maneras eres capaz de hacerlo?\n# * Crea el c\u00f3digo para cada una de ellas.\n#"
     },
     "26": {
-        "nombre": "PIEDRA,_PAPEL,_TIJERA",
+        "nombre": "Piedra,_papel,_tijera",
         "descripcion": "# * Crea un programa que calcule quien gana m\u00e1s partidas al piedra,\n# * papel, tijera.\n# * - El resultado puede ser: \"Player 1\", \"Player 2\", \"Tie\" (empate)\n# * - La funci\u00f3n recibe un listado que contiene pares, representando cada jugada.\n# * - El par puede contener combinaciones de \"R\" (piedra), \"P\" (papel)\n# *   o \"S\" (tijera).\n# * - Ejemplo. Entrada: [(\"R\",\"S\"), (\"S\",\"R\"), (\"P\",\"S\")]. Resultado: \"Player 2\".\n#"
     },
     "27": {
-        "nombre": "CUADRADO_Y_TRIANGULO_2D",
+        "nombre": "Cuadrado_y_triangulo_2d",
         "descripcion": "# * Crea un programa que dibuje un cuadrado o un tri\u00e1ngulo con asteriscos \"*\".\n# * - Indicaremos el tama\u00f1o del lado y si la figura a dibujar es una u otra.\n# * - EXTRA: \u00bfEres capaz de dibujar m\u00e1s figuras?\n#"
     },
     "28": {
-        "nombre": "VECTORES_ORTOGONALES",
+        "nombre": "Vectores_ortogonales",
         "descripcion": "# * Crea un programa que determine si dos vectores son ortogonales.\n# * - Los dos array deben tener la misma longitud.\n# * - Cada vector se podr\u00eda representar como un array. Ejemplo: [1, -2]\n#"
     },
     "29": {
-        "nombre": "MAQUINA_EXPENDEDORA",
+        "nombre": "Maquina_expendedora",
         "descripcion": "# * Simula el funcionamiento de una m\u00e1quina expendedora creando una operaci\u00f3n\n# * que reciba dinero (array de monedas) y un n\u00famero que indique la selecci\u00f3n\n# * del producto.\n# * - El programa retornar\u00e1 el nombre del producto y un array con el dinero\n# *   de vuelta (con el menor n\u00famero de monedas).\n# * - Si el dinero es insuficiente o el n\u00famero de producto no existe,\n# *   deber\u00e1 indicarse con un mensaje y retornar todas las monedas.\n# * - Si no hay dinero de vuelta, el array se retornar\u00e1 vac\u00edo.\n# * - Para que resulte m\u00e1s simple, trabajaremos en c\u00e9ntimos con monedas\n# *   de 5, 10, 50, 100 y 200.\n# * - Debemos controlar que las monedas enviadas est\u00e9n dentro de las soportadas.\n#"
     },
     "30": {
-        "nombre": "ORDENA_LA_LISTA",
+        "nombre": "Ordena_la_lista",
         "descripcion": "# * Crea una funci\u00f3n que ordene y retorne una matriz de n\u00fameros.\n# * - La funci\u00f3n recibir\u00e1 un listado (por ejemplo [2, 4, 6, 8, 9]) y un par\u00e1metro\n# *   adicional \"Asc\" o \"Desc\" para indicar si debe ordenarse de menor a mayor\n# *   o de mayor a menor.\n# * - No se pueden utilizar funciones propias del lenguaje que lo resuelvan\n# *   autom\u00e1ticamente.\n#"
     },
     "31": {
-        "nombre": "MARCO_DE_PALABRAS",
+        "nombre": "Marco_de_palabras",
         "descripcion": "# * Crea una funci\u00f3n que reciba un texto y muestre cada palabra en una l\u00ednea,\n# * formando un marco rectangular de asteriscos.\n# * - \u00bfQu\u00e9 te parece el reto? Se ver\u00eda as\u00ed:\n# *   **********\n# *   * \u00bfQu\u00e9   *\n# *   * te     *\n# *   * parece *\n# *   * el     *\n# *   * reto?  *\n# *   **********\n#"
     },
     "32": {
-        "nombre": "ANOS_BISIESTOS",
+        "nombre": "Anos_bisiestos",
         "descripcion": "# * Crea una funci\u00f3n que imprima los 30 pr\u00f3ximos a\u00f1os bisiestos\n# * siguientes a uno dado.\n# * - Utiliza el menor n\u00famero de l\u00edneas para resolver el ejercicio.\n#"
     },
     "33": {
-        "nombre": "EL_SEGUNDO",
+        "nombre": "El_segundo",
         "descripcion": "# * Dado un listado de n\u00fameros, encuentra el SEGUNDO m\u00e1s grande\n#"
     },
     "34": {
-        "nombre": "CICLO_SEXAGENARIO_CHINO",
+        "nombre": "Ciclo_sexagenario_chino",
         "descripcion": "# * Crea un funci\u00f3n, que dado un a\u00f1o, indique el elemento \n# * y animal correspondiente en el ciclo sexagenario del zod\u00edaco chino.\n# * - Info: https://www.travelchinaguide.com/intro/astrology/60year-cycle.htm\n# * - El ciclo sexagenario se corresponde con la combinaci\u00f3n de los elementos\n# *   madera, fuego, tierra, metal, agua y los animales rata, buey, tigre,\n# *   conejo, drag\u00f3n, serpiente, caballo, oveja, mono, gallo, perro, cerdo\n# *   (en este orden).\n# * - Cada elemento se repite dos a\u00f1os seguidos.\n# * - El \u00faltimo ciclo sexagenario comenz\u00f3 en 1984 (Madera Rata).\n#"
     },
     "35": {
-        "nombre": "LOS_NUMEROS_PERDIDOS",
+        "nombre": "Los_numeros_perdidos",
         "descripcion": "# * Dado un array de enteros ordenado y sin repetidos,\n# * crea una funci\u00f3n que calcule y retorne todos los que faltan entre\n# * el mayor y el menor.\n# * - Lanza un error si el array de entrada no es correcto.\n#"
     },
     "36": {
-        "nombre": "BATALLA_POKEMON",
+        "nombre": "Batalla_pokemon",
         "descripcion": "# * Crea un programa que calcule el da\u00f1o de un ataque durante\n# * una batalla Pok\u00e9mon.\n# * - La f\u00f3rmula ser\u00e1 la siguiente: da\u00f1o = 50 * (ataque / defensa) * efectividad\n# * - Efectividad: x2 (s\u00faper efectivo), x1 (neutral), x0.5 (no es muy efectivo)\n# * - S\u00f3lo hay 4 tipos de Pok\u00e9mon: Agua, Fuego, Planta y El\u00e9ctrico \n# *   (buscar su efectividad)\n# * - El programa recibe los siguientes par\u00e1metros:\n# *  - Tipo del Pok\u00e9mon atacante.\n# *  - Tipo del Pok\u00e9mon defensor.\n# *  - Ataque: Entre 1 y 100.\n# *  - Defensa: Entre 1 y 100.\n#"
     },
     "37": {
-        "nombre": "LOS_ANILLOS_DE_PODER",
+        "nombre": "Los_anillos_de_poder",
         "descripcion": "# * \u00a1La Tierra Media est\u00e1 en guerra! En ella luchar\u00e1n razas leales\n# * a Sauron contra otras bondadosas que no quieren que el mal reine\n# * sobre sus tierras.\n# * Cada raza tiene asociado un \"valor\" entre 1 y 5:\n# * - Razas bondadosas: Pelosos (1), Sure\u00f1os buenos (2), Enanos (3),\n# *   N\u00famen\u00f3reanos (4), Elfos (5)\n# * - Razas malvadas: Sure\u00f1os malos (2), Orcos (2), Goblins (2),\n# *   Huargos (3), Trolls (5)\n# * Crea un programa que calcule el resultado de la batalla entre\n# * los 2 tipos de ej\u00e9rcitos:\n# * - El resultado puede ser que gane el bien, el mal, o exista un empate.\n# *   Dependiendo de la suma del valor del ej\u00e9rcito y el n\u00famero de integrantes.\n# * - Cada ej\u00e9rcito puede estar compuesto por un n\u00famero de integrantes variable\n# *   de cada raza.\n# * - Tienes total libertad para modelar los datos del ejercicio.\n# * Ej: 1 Peloso pierde contra 1 Orco\n# *     2 Pelosos empatan contra 1 Orco\n# *     3 Pelosos ganan a 1 Orco\n#"
     },
     "38": {
-        "nombre": "LOS_LANZAMIENTOS_DE_THE_LEGEND_OF_ZELDA",
+        "nombre": "Los_lanzamientos_de_the_legend_of_zelda",
         "descripcion": "# * \u00a1Han anunciado un nuevo \"The Legend of Zelda\"!\n# * Se llamar\u00e1 \"Tears of the Kingdom\" y se lanzar\u00e1 el 12 de mayo de 2023.\n# * Pero, \u00bfrecuerdas cu\u00e1nto tiempo ha pasado entre los distintos\n# * \"The Legend of Zelda\" de la historia?\n# * Crea un programa que calcule cu\u00e1ntos a\u00f1os y d\u00edas hay entre 2 juegos de Zelda\n# * que t\u00fa selecciones.\n# * - Debes buscar cada uno de los t\u00edtulos y su d\u00eda de lanzamiento \n# *   (si no encuentras el d\u00eda exacto puedes usar el mes, o incluso invent\u00e1rtelo)\n#"
     },
     "39": {
-        "nombre": "BINARIO_A_DECIMAL",
+        "nombre": "Binario_a_decimal",
         "descripcion": "# * Crea un programa se encargue de transformar un n\u00famero binario\n# * a decimal sin utilizar funciones propias del lenguaje que\n# * lo hagan directamente.\n#"
     },
     "40": {
-        "nombre": "TOP_ALGORITMOS_|_QUICK_SORT",
+        "nombre": "Top_algoritmos_|_quick_sort",
         "descripcion": "# * Implementa uno de los algoritmos de ordenaci\u00f3n m\u00e1s famosos:\n# * el \"Quick Sort\", creado por C.A.R. Hoare.\n# * - Entender el funcionamiento de los algoritmos m\u00e1s utilizados de la historia\n# *   Nos ayuda a mejorar nuestro conocimiento sobre ingenier\u00eda de software.\n# *   Ded\u00edcale tiempo a entenderlo, no \u00fanicamente a copiar su implementaci\u00f3n.\n# * - Esta es una nueva serie de retos llamada \"TOP ALGORITMOS\",\n# *   donde trabajaremos y entenderemos los m\u00e1s famosos de la historia.\n#"
     },
     "41": {
-        "nombre": "TRIANGULO_DE_PASCAL",
+        "nombre": "Triangulo_de_pascal",
         "descripcion": "# * Crea una funci\u00f3n que sea capaz de dibujar el \"Tri\u00e1ngulo de Pascal\"\n# * indic\u00e1ndole \u00fanicamente el tama\u00f1o del lado.\n# *\n# * - Aqu\u00ed puedes ver r\u00e1pidamente c\u00f3mo se calcula el tri\u00e1ngulo:\n# *   https://commons.wikimedia.org/wiki/File:PascalTriangleAnimated2.gif\n#"
     },
     "42": {
-        "nombre": "LA_LEY_DE_OHM",
+        "nombre": "La_ley_de_ohm",
         "descripcion": "# * Crea una funci\u00f3n que calcule el valor del par\u00e1metro perdido\n# * correspondiente a la ley de Ohm.\n# * - Enviaremos a la funci\u00f3n 2 de los 3 par\u00e1metros (V, R, I), y retornar\u00e1\n# *   el valor del tercero (redondeado a 2 decimales).\n# * - Si los par\u00e1metros son incorrectos o insuficientes, la funci\u00f3n retornar\u00e1\n# *   la cadena de texto \"Invalid values\".\n#"
     },
     "43": {
-        "nombre": "CONVERSOR_DE_TEMPERATURA",
+        "nombre": "Conversor_de_temperatura",
         "descripcion": "# * Crea una funci\u00f3n que transforme grados Celsius en Fahrenheit\n# * y viceversa.\n# *\n# * - Para que un dato de entrada sea correcto debe poseer un s\u00edmbolo \"\u00b0\"\n# *   y su unidad (\"C\" o \"F\").\n# * - En caso contrario retornar\u00e1 un error.\n#"
     },
     "44": {
-        "nombre": "TRUCO_O_TRATO",
+        "nombre": "Truco_o_trato",
         "descripcion": "# * Este es un reto especial por Halloween.\n# * Deberemos crear un programa al que le indiquemos si queremos realizar \"Truco\n# * o Trato\" y un listado (array) de personas con las siguientes propiedades:\n# * - Nombre de la ni\u00f1a o ni\u00f1o\n# * - Edad\n# * - Altura en cent\u00edmetros\n# *\n# * Si las personas han pedido truco, el programa retornar\u00e1 sustos (aleatorios)\n# * siguiendo estos criterios:\n# * - Un susto por cada 2 letras del nombre por persona\n# * - Dos sustos por cada edad que sea un n\u00famero par\n# * - Tres sustos por cada 100 cm de altura entre todas las personas\n# * - Sustos: \ud83c\udf83 \ud83d\udc7b \ud83d\udc80 \ud83d\udd77 \ud83d\udd78 \ud83e\udd87\n# *\n# * Si las personas han pedido trato, el programa retornar\u00e1 dulces (aleatorios)\n# * siguiendo estos criterios:\n# * - Un dulce por cada letra de nombre\n# * - Un dulce por cada 3 a\u00f1os cumplidos hasta un m\u00e1ximo de 10 a\u00f1os por persona\n# * - Dos dulces por cada 50 cm de altura hasta un m\u00e1ximo de 150 cm por persona\n# * - Dulces: \ud83c\udf70 \ud83c\udf6c \ud83c\udf61 \ud83c\udf6d \ud83c\udf6a \ud83c\udf6b \ud83e\uddc1 \ud83c\udf69\n# * - En caso contrario retornar\u00e1 un error.\n#"
     },
     "45": {
-        "nombre": "BUMERANES",
+        "nombre": "Bumeranes",
         "descripcion": "# * Crea una funci\u00f3n que retorne el n\u00famero total de bumeranes de\n# * un array de n\u00fameros enteros e imprima cada uno de ellos.\n# * - Un bumer\u00e1n (b\u00fameran, boomerang) es una secuencia formada por 3 n\u00fameros\n# *   seguidos, en el que el primero y el \u00faltimo son iguales, y el segundo\n# *   es diferente. Por ejemplo [2, 1, 2].\n# * - En el array [2, 1, 2, 3, 3, 4, 2, 4] hay 2 bumeranes ([2, 1, 2]\n# *   y [4, 2, 4]).\n#"
     },
     "46": {
-        "nombre": "CONTENEDOR_DE_AGUA",
+        "nombre": "Contenedor_de_agua",
         "descripcion": "# * Dado un array de n\u00fameros enteros positivos, donde cada uno\n# * representa unidades de bloques apilados, debemos calcular cuantas unidades\n# * de agua quedar\u00e1n atrapadas entre ellos.\n# *\n# * - Ejemplo: Dado el array [4, 0, 3, 6, 1, 3].\n# *\n# *         \u23f9\n# *         \u23f9\n# *   \u23f9\ud83d\udca7\ud83d\udca7\u23f9\n# *   \u23f9\ud83d\udca7\u23f9\u23f9\ud83d\udca7\u23f9\n# *   \u23f9\ud83d\udca7\u23f9\u23f9\ud83d\udca7\u23f9\n# *   \u23f9\ud83d\udca7\u23f9\u23f9\u23f9\u23f9\n# *\n# *   Representando bloque con \u23f9\ufe0e y agua con \ud83d\udca7, quedar\u00e1n atrapadas 7 unidades\n# *   de agua. Suponemos que existe un suelo impermeable en la parte inferior\n# *   que retiene el agua.\n#"
     },
     "47": {
-        "nombre": "DONDE_ESTA_EL_ROBOT",
+        "nombre": "Donde_esta_el_robot",
         "descripcion": "# * Calcula d\u00f3nde estar\u00e1 un robot (sus coordenadas finales) que se\n# * encuentra en una cuadr\u00edcula representada por los ejes \"x\" e \"y\".\n# * - El robot comienza en la coordenada (0, 0).\n# * - Para idicarle que se mueva, le enviamos un array formado por enteros\n# *   (positivos o negativos) que indican la secuencia de pasos a dar.\n# * - Por ejemplo: [10, 5, -2] indica que primero se mueve 10 pasos, se detiene,\n# *   luego 5, se detiene, y finalmente 2.\n# *   El resultado en este caso ser\u00eda (x: -5, y: 12)\n# * - Si el n\u00famero de pasos es negativo, se desplazar\u00eda en sentido contrario al\n# *   que est\u00e1 mirando.\n# * - Los primeros pasos los hace en el eje \"y\". Interpretamos que est\u00e1 mirando\n# *   hacia la parte positiva del eje \"y\".\n# * - El robot tiene un fallo en su programaci\u00f3n: cada vez que finaliza una\n# *   secuencia de pasos gira 90 grados en el sentido contrario a las agujas\n# *   del reloj.\n#"
     },
     "48": {
-        "nombre": "VOCAL_MAS_COMUN",
+        "nombre": "Vocal_mas_comun",
         "descripcion": "# * Crea un funci\u00f3n que reciba un texto y retorne la vocal que\n# * m\u00e1s veces se repita.\n# * - Ten cuidado con algunos casos especiales.\n# * - Si no hay vocales podr\u00e1 devolver vac\u00edo.\n#"
     },
     "49": {
-        "nombre": "EL_CALENDARIO_DE_ADEVIENTO_2022",
+        "nombre": "El_calendario_de_adeviento_2022",
         "descripcion": "# * \u00bfConoces el calendario de adviento de la comunidad (https://adviento.dev)?\n# * 24 d\u00edas, 24 regalos sorpresa relacionados con desarrollo de software,\n# * ciencia y tecnolog\u00eda desde el 1 de diciembre.\n# *\n# * Enunciado: Crea una funci\u00f3n que reciba un objeto de tipo \"Date\" y retorne\n# * lo siguiente:\n# * - Si la fecha coincide con el calendario de aDEViento 2022: Retornar\u00e1 el regalo\n# *   de ese d\u00eda (a tu elecci\u00f3n) y cu\u00e1nto queda para que finalice el sorteo de ese d\u00eda.\n# * - Si la fecha es anterior: Cu\u00e1nto queda para que comience el calendario.\n# * - Si la fecha es posterior: Cu\u00e1nto tiempo ha pasado desde que ha finalizado.\n# *\n# * Notas:\n# * - Tenemos en cuenta que cada d\u00eda del calendario comienza a medianoche 00:00:00\n# *   y finaliza a las 23:59:59.\n# * - Debemos trabajar con fechas que tengan a\u00f1o, mes, d\u00eda, horas, minutos\n# *   y segundos.\n#"
     },
     "50": {
-        "nombre": "EL_DETECTOR_DE_HANDLES",
+        "nombre": "El_detector_de_handles",
         "descripcion": "# * Crea una funci\u00f3n que sea capaz de detectar y retornar todos los\n# * handles de un texto usando solamente Expresiones Regulares.\n# * Debes crear una expresi\u00f3n regular para cada caso:\n# * - Handle usuario: Los que comienzan por \"@\"\n# * - Handle hashtag: Los que comienzan por \"#\"\n# * - Handle web: Los que comienzan por \"www.\", \"http://\", \"https://\"\n# *   y finalizan con un dominio (.com, .es...)\n#"
     },
     "51": {
-        "nombre": "LA_ENCRIPTACION_DE_KARACA",
+        "nombre": "La_encriptacion_de_karaca",
         "descripcion": "# * Crea una funci\u00f3n que sea capaz de encriptar y desencriptar texto\n# * utilizando el algoritmo de encriptaci\u00f3n de Karaca\n# * (debes buscar informaci\u00f3n sobre \u00e9l).\n#"
     },
     "52": {
-        "nombre": "EL_RETO_RANDOM",
+        "nombre": "El_reto_random",
         "descripcion": "# * Crea tu propio enunciado para que forme parte de los retos de 2023.\n# * - Ten en cuenta que su dificultad debe ser asumible por la comunidad y seguir\n# * un estilosemejante a los que hemos realizado durante el a\u00f1o.\n# * - Si quieres tambi\u00e9n puedes proponer tu propia soluci\u00f3n al reto\n# *   (en el lenguaje que quieras).\n#"
     },
     "53": {
-        "nombre": "EL_FAMOSO_FIZZ_BUZZ_(v2)",
+        "nombre": "El_famoso_fizz_buzz_(v2)",
         "descripcion": "# * Escribe un programa que muestre por consola (con un print) los\n# * n\u00fameros de 1 a 100 (ambos incluidos y con un salto de l\u00ednea entre\n# * cada impresi\u00f3n), sustituyendo los siguientes:\n# * - M\u00faltiplos de 3 por la palabra \"fizz\".\n# * - M\u00faltiplos de 5 por la palabra \"buzz\".\n# * - M\u00faltiplos de 3 y de 5 a la vez por la palabra \"fizzbuzz\".\n#"
     },
     "54": {
-        "nombre": "EL_LENGUAJE_HACKER",
+        "nombre": "El_lenguaje_hacker",
         "descripcion": "# * Escribe un programa que reciba un texto y transforme lenguaje natural a\n# * \"lenguaje hacker\" (conocido realmente como \"leet\" o \"1337\"). Este lenguaje\n# *  se caracteriza por sustituir caracteres alfanum\u00e9ricos.\n# * - Utiliza esta tabla (https://www.gamehouse.com/blog/leet-speak-cheat-sheet)\n# *   con el alfabeto y los n\u00fameros en \"leet\".\n# *   (Usa la primera opci\u00f3n de cada transformaci\u00f3n. Por ejemplo \"4\" para la \"a\")\n#"
     },
     "55": {
-        "nombre": "EL_PARTIDO_DE_TENIS",
+        "nombre": "El_partido_de_tenis",
         "descripcion": "# * Escribe un programa que muestre c\u00f3mo transcurre un juego de tenis y qui\u00e9n lo ha ganado.\n# * El programa recibir\u00e1 una secuencia formada por \"P1\" (Player 1) o \"P2\" (Player 2), seg\u00fan quien\n# * gane cada punto del juego.\n# *\n# * - Las puntuaciones de un juego son \"Love\" (cero), 15, 30, 40, \"Deuce\" (empate), ventaja.\n# * - Ante la secuencia [P1, P1, P2, P2, P1, P2, P1, P1], el programa mostrar\u00eda lo siguiente:\n# *   15 - Love\n# *   30 - Love\n# *   30 - 15\n# *   30 - 30\n# *   40 - 30\n# *   Deuce\n# *   Ventaja P1\n# *   Ha ganado el P1\n# * - Si quieres, puedes controlar errores en la entrada de datos.\n# * - Consulta las reglas del juego si tienes dudas sobre el sistema de puntos.\n#"
     },
     "56": {
-        "nombre": "EL_GENERADOR_DE_CONTRASENAS",
+        "nombre": "El_generador_de_contrasenas",
         "descripcion": "# * Escribe un programa que sea capaz de generar contrase\u00f1as de forma aleatoria.\n# * Podr\u00e1s configurar generar contrase\u00f1as con los siguientes par\u00e1metros:\n# * - Longitud: Entre 8 y 16.\n# * - Con o sin letras may\u00fasculas.\n# * - Con o sin n\u00fameros.\n# * - Con o sin s\u00edmbolos.\n# * (Pudiendo combinar todos estos par\u00e1metros entre ellos)\n#"
     },
     "57": {
-        "nombre": "PRIMO,_FIBONACCI_Y_PAR",
+        "nombre": "Primo,_fibonacci_y_par",
         "descripcion": "# * Escribe un programa que, dado un n\u00famero, compruebe y muestre si es primo,\n# * fibonacci y par.\n# * Ejemplos:\n# * - Con el n\u00famero 2, nos dir\u00e1: \"2 es primo, fibonacci y es par\"\n# * - Con el n\u00famero 7, nos dir\u00e1: \"7 es primo, no es fibonacci y es impar\"\n#"
     },
     "58": {
-        "nombre": "HOLA_MUNDO!",
+        "nombre": "Hola_mundo!",
         "descripcion": "# * Escribe un !Hola Mundo! en todos los lenguajes de programaci\u00f3n que puedas.\n# * Seguro que hay alg\u00fan lenguaje que te llama la atenci\u00f3n y nunca has utilizado,\n# * o quiz\u00e1s quieres dar tus primeros pasos... \u00a1Pues este es el momento!\n# *\n# * A ver qui\u00e9n se atreve con uno de esos lenguajes que no solemos ver por ah\u00ed...\n#"
     },
     "59": {
-        "nombre": "PIEDRA,_PAPEL,_TIJERA,_LAGARTO,_SPOCK",
+        "nombre": "Piedra,_papel,_tijera,_lagarto,_spock",
         "descripcion": "# * Crea un programa que calcule quien gana m\u00e1s partidas al piedra,\n# * papel, tijera, lagarto, spock.\n# * - El resultado puede ser: \"Player 1\", \"Player 2\", \"Tie\" (empate)\n# * - La funci\u00f3n recibe un listado que contiene pares, representando cada jugada.\n# * - El par puede contener combinaciones de \"\ud83d\uddff\" (piedra), \"\ud83d\udcc4\" (papel),\n# *   \"\u2702\ufe0f\" (tijera), \"\ud83e\udd8e\" (lagarto) o \"\ud83d\udd96\" (spock).\n# * - Ejemplo. Entrada: [(\"\ud83d\uddff\",\"\u2702\ufe0f\"), (\"\u2702\ufe0f\",\"\ud83d\uddff\"), (\"\ud83d\udcc4\",\"\u2702\ufe0f\")]. Resultado: \"Player 2\".\n# * - Debes buscar informaci\u00f3n sobre c\u00f3mo se juega con estas 5 posibilidades.\n#"
     },
     "60": {
-        "nombre": "EL_SOMBRERO_SELECCIONADOR",
+        "nombre": "El_sombrero_seleccionador",
         "descripcion": "# * Crea un programa que simule el comportamiento del sombrero selccionador del\n# * universo m\u00e1gico de Harry Potter.\n# * - De ser posible realizar\u00e1 5 preguntas (como m\u00ednimo) a trav\u00e9s de la terminal.\n# * - Cada pregunta tendr\u00e1 4 respuestas posibles (tambi\u00e9n a selecciona una a trav\u00e9s de terminal).\n# * - En funci\u00f3n de las respuestas a las 5 preguntas deber\u00e1s dise\u00f1ar un algoritmo que\n# *   coloque al alumno en una de las 4 casas de Hogwarts:\n# *   (Gryffindor, Slytherin , Hufflepuff y Ravenclaw)\n# * - Ten en cuenta los rasgos de cada casa para hacer las preguntas\n# *   y crear el algoritmo seleccionador:\n# *   Por ejemplo, en Slytherin se premia la ambici\u00f3n y la astucia.\n#"
     },
     "61": {
-        "nombre": "EL_GENERADOR_PSEUDOALEATORIO",
+        "nombre": "El_generador_pseudoaleatorio",
         "descripcion": "# * Crea un generador de n\u00fameros pseudoaleatorios entre 0 y 100.\n# * - No puedes usar ninguna funci\u00f3n \"random\" (o semejante) del\n# *   lenguaje de programaci\u00f3n seleccionado.\n# *\n# * Es m\u00e1s complicado de lo que parece...\n#"
     },
     "62": {
-        "nombre": "HETEROGRAMA,_ISOGRAMA_Y_PANGRAMA",
+        "nombre": "Heterograma,_isograma_y_pangrama",
         "descripcion": "# * Crea 3 funciones, cada una encargada de detectar si una cadena de\n# * texto es un heterograma, un isograma o un pangrama.\n# * - Debes buscar la definici\u00f3n de cada uno de estos t\u00e9rminos.\n#"
     },
     "63": {
-        "nombre": "LA_API_(APPLICATION_PROGRAMMING_INTERFACE)",
+        "nombre": "La_api_(application_programming_interface)",
         "descripcion": "# * Llamar a una API es una de las tareas m\u00e1s comunes en programaci\u00f3n.\n# *\n# * Implementa una llamada HTTP a una API (la que t\u00fa quieras) y muestra su\n# * resultado a trav\u00e9s de la terminal. Por ejemplo: Pok\u00e9mon, Marvel...\n# *\n# * Aqu\u00ed tienes un listado de posibles APIs:\n# * https://github.com/public-apis/public-apis\n#"
     },
     "64": {
-        "nombre": "PARAMETROS_URL",
+        "nombre": "Parametros_url",
         "descripcion": "# * Dada una URL con par\u00e1metros, crea una funci\u00f3n que obtenga sus valores.\n# * No se pueden usar operaciones del lenguaje que realicen esta tarea directamente.\n# *\n# * Ejemplo: En la url https://retosdeprogramacion.com?year=2023&challenge=0\n# * los par\u00e1metros ser\u00edan [\"2023\", \"0\"]\n#"
     },
     "65": {
-        "nombre": "VIERNES_13",
+        "nombre": "Viernes_13",
         "descripcion": "# * Crea una funci\u00f3n que sea capaz de detectar si existe un viernes 13\n# * en el mes y el a\u00f1o indicados.\n# * - La funci\u00f3n recibir\u00e1 el mes y el a\u00f1o y retornar\u00e1 verdadero o falso.\n#"
     },
     "66": {
-        "nombre": "ADIVINA_LA_PALABRA",
+        "nombre": "Adivina_la_palabra",
         "descripcion": "# * Crea un peque\u00f1o juego que consista en adivinar palabras en un n\u00famero m\u00e1ximo de intentos:\n# * - El juego comienza proponiendo una palabra aleatoria incompleta\n# *   - Por ejemplo \"m_ur_d_v\", y el n\u00famero de intentos que le quedan\n# * - El usuario puede introducir \u00fanicamente una letra o una palabra (de la misma longitud que\n# *   la palabra a adivinar)\n# *   - Si escribe una letra y acierta, se muestra esa letra en la palabra. Si falla, se resta\n# *     uno al n\u00famero de intentos\n# *   - Si escribe una resoluci\u00f3n y acierta, finaliza el juego, en caso contrario, se resta uno\n# *     al n\u00famero de intentos\n# *   - Si el contador de intentos llega a 0, el jugador pierde\n# * - La palabra debe ocultar de forma aleatoria letras, y nunca puede comenzar\n# *   ocultando m\u00e1s del 60%\n# * - Puedes utilizar las palabras que quieras y el n\u00famero de intentos que consideres\n#"
     },
     "67": {
-        "nombre": "OCTAL_Y_HEXADECIMAL",
+        "nombre": "Octal_y_hexadecimal",
         "descripcion": "# * Crea una funci\u00f3n que reciba un n\u00famero decimal y lo trasforme a Octal\n# * y Hexadecimal.\n# * - No est\u00e1 permitido usar funciones propias del lenguaje de programaci\u00f3n que\n# * realicen esas operaciones directamente.\n#"
     },
     "68": {
-        "nombre": "AUREBESH",
+        "nombre": "Aurebesh",
         "descripcion": "# * Crea una funci\u00f3n que sea capaz de transformar Espa\u00f1ol al lenguaje b\u00e1sico\n# * del universo Star Wars: el \"Aurebesh\".\n# * - Puedes dejar sin transformar los caracteres que no existan en \"Aurebesh\".\n# * - Tambi\u00e9n tiene que ser capaz de traducir en sentido contrario.\n# *\n# * \u00bfLo has conseguido? N\u00f3mbrame en twitter.com/mouredev y escr\u00edbeme algo en Aurebesh.\n# *\n# * \u00a1Que la fuerza os acompa\u00f1e!\n#"
     },
     "69": {
-        "nombre": "LA_ESCALERA",
+        "nombre": "La_escalera",
         "descripcion": "# * Crea una funci\u00f3n que dibuje una escalera seg\u00fan su n\u00famero de escalones.\n# * - Si el n\u00famero es positivo, ser\u00e1 ascendente de izquiera a derecha.\n# * - Si el n\u00famero es negativo, ser\u00e1 descendente de izquiera a derecha.\n# * - Si el n\u00famero es cero, se dibujar\u00e1n dos guiones bajos (__).\n# *\n# * Ejemplo: 4\n# *         _\n# *       _|\n# *     _|\n# *   _|\n# * _|\n# *\n#"
     },
     "70": {
-        "nombre": "GIT_Y_GITHUB",
+        "nombre": "Git_y_github",
         "descripcion": "# * \u00a1Estoy de celebraci\u00f3n! He publicado mi primer libro:\n# * \"Git y GitHub desde cero\"\n# * - Papel: mouredev.com/libro-git\n# * - eBook: mouredev.com/ebook-git\n# *\n# * \u00bfSab\u00edas que puedes leer informaci\u00f3n de Git y GitHub desde la gran\n# * mayor\u00eda de lenguajes de programaci\u00f3n?\n# *\n# * Crea un programa que lea los \u00faltimos 10 commits de este repositorio y muestre:\n# * - Hash\n# * - Autor\n# * - Mensaje\n# * - Fecha y hora\n# *\n# * Ejemplo de salida:\n# * Commit 1 (el m\u00e1s reciente) | 12345A | MoureDev | Este es un commit | 24/04/2023 21:00\n# *\n# * Se permite utilizar librer\u00edas que nos faciliten esta tarea.\n#"
     },
     "71": {
-        "nombre": "WEB_SCRAPING",
+        "nombre": "Web_scraping",
         "descripcion": "# * El d\u00eda 128 del a\u00f1o celebramos en la comunidad el \"Hola Mundo day\"\n# * Vamos a hacer \"web scraping\" sobre su sitio web: https://holamundo.day\n# *\n# * Crea un programa que se conecte a la web del evento e imprima \u00fanicamente la agenda de eventos\n# * del d\u00eda 8. Mostrando hora e informaci\u00f3n de cada uno.\n# * Ejemplo: \"16:00 | Bienvenida\"\n# *\n# * Se permite utilizar librer\u00edas que nos faciliten esta tarea.\n#"
     },
     "72": {
-        "nombre": "ANALISIS_DE_TEXTO",
+        "nombre": "Analisis_de_texto",
         "descripcion": "# * Crea un programa que analice texto y obtenga:\n# * - N\u00famero total de palabras.\n# * - Longitud media de las palabras.\n# * - N\u00famero de oraciones del texto (cada vez que aparecen un punto).\n# * - Encuentre la palabra m\u00e1s larga.\n# *\n# * Todo esto utilizando un \u00fanico bucle.\n#"
     },
     "73": {
-        "nombre": "LA_TRIFUERZA",
+        "nombre": "La_trifuerza",
         "descripcion": "# * \u00a1El nuevo \"The Legend of Zelda: Tears of the Kingdom\" ya est\u00e1 disponible! \n# *\n# * Crea un programa que dibuje una Trifuerza de \"Zelda\"\n# * formada por asteriscos.\n# * - Debes indicarle el n\u00famero de filas de los tri\u00e1ngulos con un entero positivo (n).\n# * - Cada tri\u00e1ngulo calcular\u00e1 su fila mayor utilizando la f\u00f3rmula 2n-1.\n# *\n# * Ejemplo: Trifuerza 2\n# *\n# *    *\n# *   ***\n# *  *   *\n# * *** ***\n#"
     },
     "74": {
-        "nombre": "NUMEROS_PRIMOS_GEMELOS",
+        "nombre": "Numeros_primos_gemelos",
         "descripcion": "# * Crea un programa que encuentre y muestre todos los pares de n\u00fameros primos\n# * gemelos en un rango concreto.\n# * El programa recibir\u00e1 el rango m\u00e1ximo como n\u00famero entero positivo.\n# *\n# * - Un par de n\u00fameros primos se considera gemelo si la diferencia entre\n# *   ellos es exactamente 2. Por ejemplo (3, 5), (11, 13)\n# *\n# * - Ejemplo: Rango 14\n# *   (3, 5), (5, 7), (11, 13)\n#"
     },
     "75": {
-        "nombre": "LA_ESPIRAL",
+        "nombre": "La_espiral",
         "descripcion": "# * Crea una funci\u00f3n que dibuje una espiral como la del ejemplo.\n# * - \u00danicamente se indica de forma din\u00e1mica el tama\u00f1o del lado.\n# * - S\u00edmbolos permitidos: \u2550 \u2551 \u2557 \u2554 \u255d \u255a\n# *\n# * Ejemplo espiral de lado 5 (5 filas y 5 columnas):\n# * \u2550\u2550\u2550\u2550\u2557\n# * \u2554\u2550\u2550\u2557\u2551\n# * \u2551\u2554\u2557\u2551\u2551\n# * \u2551\u255a\u2550\u255d\u2551\n# * \u255a\u2550\u2550\u2550\u255d\n#"
     },
     "76": {
-        "nombre": "LA_BASE_DE_DATOS",
+        "nombre": "La_base_de_datos",
         "descripcion": "# * Realiza una conexi\u00f3n desde el lenguaje que hayas seleccionado a la siguiente\n#  * base de datos MySQL:\n# * - Host: mysql-5707.dinaserver.com\n# * - Port: 3306\n# * - User: mouredev_read\n# * - Password: mouredev_pass\n# * - Database: moure_test\n# *\n# * Una vez realices la conexi\u00f3n, lanza la siguiente consulta e imprime el resultado:\n# * - SELECT * FROM `challenges`\n# *\n# * Se pueden usar librer\u00edas para realizar la l\u00f3gica de conexi\u00f3n a la base de datos.\n#"
     },
     "77": {
-        "nombre": "CIFRADO_CESAR",
+        "nombre": "Cifrado_cesar",
         "descripcion": "# * Crea un programa que realize el cifrado C\u00e9sar de un texto y lo imprima.\n# * Tambi\u00e9n debe ser capaz de descifrarlo cuando as\u00ed se lo indiquemos.\n# *\n# * Te recomiendo que busques informaci\u00f3n para conocer en profundidad c\u00f3mo\n# * realizar el cifrado. Esto tambi\u00e9n forma parte del reto.\n#"
     },
     "78": {
-        "nombre": "EL_CODIGO_KONAMI",
+        "nombre": "El_codigo_konami",
         "descripcion": "# * Crea un programa que detecte cuando el famoso \"C\u00f3digo Konami\" se ha\n# * introducido correctamente desde el teclado.\n# * Si sucede esto, debe notificarse mostrando un mensaje en la terminal.\n#"
     },
     "79": {
-        "nombre": "TESTING",
+        "nombre": "Testing",
         "descripcion": "# * Crea tres test sobre el reto 12: \"Viernes 13\".\n# * - Puedes copiar una soluci\u00f3n ya creada por otro usuario en\n# *   el lenguaje que est\u00e9s utilizando.\n# * - Debes emplear un mecanismo de ejecuci\u00f3n de test que posea\n# *   el lenguaje de programaci\u00f3n que hayas seleccionado.\n# * - Los tres test deben de funcionar y comprobar\n# *   diferentes situaciones (a tu elecci\u00f3n).\n#"
     },
     "80": {
-        "nombre": "CUENTA_ATRAS",
+        "nombre": "Cuenta_atras",
         "descripcion": "# * Crea una funci\u00f3n que reciba dos par\u00e1metros para crear una cuenta atr\u00e1s.\n# * - El primero, representa el n\u00famero en el que comienza la cuenta.\n# * - El segundo, los segundos que tienen que transcurrir entre cada cuenta.\n# * - S\u00f3lo se aceptan n\u00fameros enteros positivos.\n# * - El programa finaliza al llegar a cero.\n# * - Debes imprimir cada n\u00famero de la cuenta atr\u00e1s.\n#"
     },
     "81": {
-        "nombre": "EXPRESION_MATEMATICA",
+        "nombre": "Expresion_matematica",
         "descripcion": "# * Crea una funci\u00f3n que reciba una expresi\u00f3n matem\u00e1tica (String)\n# * y compruebe si es correcta. Retornar\u00e1 true o false.\n# * - Para que una expresi\u00f3n matem\u00e1tica sea correcta debe poseer\n# *   un n\u00famero, una operaci\u00f3n y otro n\u00famero separados por espacios.\n# *   Tantos n\u00fameros y operaciones como queramos.\n# * - N\u00fameros positivos, negativos, enteros o decimales.\n# * - Operaciones soportadas: + - * / %\n# *\n# * Ejemplos:\n# * \"5 + 6 / 7 - 4\" -> true\n# * \"5 a 6\" -> false\n#"
     },
     "82": {
-        "nombre": "EL_CARACTER_INFILTRADO",
+        "nombre": "El_caracter_infiltrado",
         "descripcion": "# * Crea una funci\u00f3n que reciba dos cadenas de texto casi iguales,\n# * a excepci\u00f3n de uno o varios caracteres.\n# * La funci\u00f3n debe encontrarlos y retornarlos en formato lista/array.\n# * - Ambas cadenas de texto deben ser iguales en longitud.\n# * - Las cadenas de texto son iguales elemento a elemento.\n# * - No se pueden utilizar operaciones propias del lenguaje\n# *   que lo resuelvan directamente.\n# *\n# * Ejemplos:\n# * - Me llamo mouredev / Me llemo mouredov -> [\"e\", \"o\"]\n# * - Me llamo.Brais Moure / Me llamo brais moure -> [\" \", \"b\", \"m\"]\n#"
     },
     "83": {
-        "nombre": "EL_TECLADO_T9",
+        "nombre": "El_teclado_t9",
         "descripcion": "# * Los primeros dispositivos m\u00f3viles ten\u00edan un teclado llamado T9\n# * con el que se pod\u00eda escribir texto utilizando \u00fanicamente su\n# * teclado num\u00e9rico (del 0 al 9).\n# *\n# * Crea una funci\u00f3n que transforme las pulsaciones del T9 a su\n# * representaci\u00f3n con letras.\n# * - Debes buscar cu\u00e1l era su correspondencia original\n# * - Cada bloque de pulsaciones va separado por un gui\u00f3n.\n# * - Si un bloque tiene m\u00e1s de un n\u00famero, debe ser siempre el mismo.\n# * - Ejemplo:\n# *     Entrada: 6-666-88-777-33-3-33-888\n# *     Salida: MOUREDEV\n#"
     },
     "84": {
-        "nombre": "EL_ABACO",
+        "nombre": "El_abaco",
         "descripcion": "# * Crea una funci\u00f3n que sea capaz de leer el n\u00famero representado por el \u00e1baco.\n# * - El \u00e1baco se representa por un array con 7 elementos.\n# * - Cada elemento tendr\u00e1 9 \"O\" (aunque habitualmente tiene 10 para realizar\n# *   operaciones) para las cuentas y una secuencia de \"---\" para el alambre.\n# * - El primer elemento del array representa los millones, y el \u00faltimo las unidades.\n# * - El n\u00famero en cada elemento se representa por las cuentas que est\u00e1n a\n# *   la izquierda del alambre.\n# *\n# * Ejemplo de array y resultado:\n# * [\"O---OOOOOOOO\",\n# *  \"OOO---OOOOOO\",\n# *  \"---OOOOOOOOO\",\n# *  \"OO---OOOOOOO\",\n# *  \"OOOOOOO---OO\",\n# *  \"OOOOOOOOO---\",\n# *  \"---OOOOOOOOO\"]\n# *\n# *  Resultado: 1.302.790\n#"
     },
     "85": {
-        "nombre": "LA_COLUMNA_DE_EXCEL",
+        "nombre": "La_columna_de_excel",
         "descripcion": "# * Crea una funci\u00f3n que calcule el n\u00famero de la columna de una hoja de Excel\n# * teniendo en cuenta su nombre.\n# * - Las columnas se designan por letras de la \"A\" a la \"Z\" de forma infinita.\n# * - Ejemplos: A = 1, Z = 26, AA = 27, CA = 79.\n#"
     },
     "86": {
-        "nombre": "TETRIS",
+        "nombre": "Tetris",
         "descripcion": "# * Crea un programa capaz de gestionar una pieza de Tetris.\n# * - La pantalla de juego tiene 10 filas y 10 columnas representadas por s\u00edmbolos \ud83d\udd32\n# * - La pieza de tetris a manejar ser\u00e1 la siguiente (si quieres, puedes elegir otra):\n# *   \ud83d\udd33\n# *   \ud83d\udd33\ud83d\udd33\ud83d\udd33\n# * - La pieza aparecer\u00e1 por primera vez en la parte superior izquierda de la pantalla de juego.\n# *   \ud83d\udd33\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\n# *   \ud83d\udd33\ud83d\udd33\ud83d\udd33\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\n# *   \ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\n# *   \ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\n# *   \ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\n# *   \ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\n# *   \ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\n# *   \ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\n# *   \ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\n# *   \ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\ud83d\udd32\n# * - Debes desarrollar una funci\u00f3n capaz de desplazar y rotar la pieza en el tablero,\n# *   recibiendo una acci\u00f3n cada vez que se llame, mostrando c\u00f3mo se visualiza en\n# *   la pantalla de juego.\n# * - Las acciones que se pueden aplicar a la pieza son: derecha, izquierda, abajo, rotar.\n# * - Debes tener en cuenta los l\u00edmites de la pantalla de juego.\n#"
     },
     "87": {
-        "nombre": "TXT",
+        "nombre": "Txt",
         "descripcion": "# * Crea un programa capaz de interactuar con un fichero TXT.\n# * IMPORTANTE: El fichero TXT NO debe subirse como parte de la correcci\u00f3n.\n# * \u00danicamente el c\u00f3digo.\n# *\n# * - Si no existe, debe crear un fichero llamado \"text.txt\".\n# * - Desde el programa debes ser capaz de introducir texto por consola y guardarlo\n# *   en una nueva l\u00ednea cada vez que se pulse el bot\u00f3n \"Enter\".\n# * - Si el fichero existe, el programa tiene que dar la opci\u00f3n de seguir escribiendo\n# *   a continuaci\u00f3n o borrar su contenido y comenzar desde el principio.\n# * - Si se selecciona continuar escribiendo, se tiene que mostrar por consola\n# *   el texto que ya posee el fichero. \n#"
     },
     "88": {
-        "nombre": "PRIMEROS_PASOS",
+        "nombre": "Primeros_pasos",
         "descripcion": "# * Como cada a\u00f1o, el d\u00eda 256 se celebra el \"D\u00eda de la Programaci\u00f3n\".\n# * En nuestra comunidad siempre hacemos una gran fiesta donde repartirmos\n# * 256 regalos para seguir aprendiendo programaci\u00f3n:\n# * https://diadelaprogramacion.com\n# *\n# * Para seguir ayudando, te propongo este reto:\n# * Mostrar la sintaxis de los principales elementos de un lenguaje\n# * en TODOS los lenguajes de programaci\u00f3n que podamos. \u00bfLlegaremos a 50?\n# *\n# * En un fichero, haz lo siguiente (si el lenguaje lo soporta),\n# * y comenta cada bloque para identificar con qu\u00e9 se corresponde:\n# * - Haz un \"Hola, mundo!\"\n# * - Crea variables de tipo String, num\u00e9ricas (enteras y decimales)\n# *   y Booleanas (o cualquier tipo de dato primitivo).\n# * - Crea una constante.\n# * - Usa un if, else if y else.\n# * - Crea estructuras como un array, lista, tupla, set y diccionario.\n# * - Usa un for, foreach y un while.\n# * - Crea diferentes funciones (con/sin par\u00e1metros y con/sin retorno).\n# * - Crea una clase.\n# * - Muestra el control de excepciones.\n# *\n# * As\u00ed, cualquier persona podr\u00e1 consultar r\u00e1pidamente diferentes ejemplos\n# * de sintaxis b\u00e1sica de muchos lenguajes.\n# *\n# * \u00a1Muchas gracias!\n#"
     },
     "89": {
-        "nombre": "PERMUTACIONES",
+        "nombre": "Permutaciones",
         "descripcion": "# * Crea un programa que sea capaz de generar e imprimir todas las\n# * permutaciones disponibles formadas por las letras de una palabra.\n# * - Las palabras generadas no tienen por qu\u00e9 existir.\n# * - Deben usarse todas las letras en cada permutaci\u00f3n.\n# * - Ejemplo: sol, slo, ols, osl, los, lso\n#"
     },
     "90": {
-        "nombre": "COLORES_HEX_Y_RGB",
+        "nombre": "Colores_hex_y_rgb",
         "descripcion": "# * Crea las funciones capaces de transformar colores HEX\n# * a RGB y viceversa.\n# * Ejemplos:\n# * RGB a HEX: r: 0, g: 0, b: 0 -> #000000\n# * HEX a RGB: hex: #000000 -> (r: 0, g: 0, b: 0)\n#"
     },
     "91": {
-        "nombre": "LAS_SUMAS",
+        "nombre": "Las_sumas",
         "descripcion": "# * Crea una funci\u00f3n que encuentre todas las combinaciones de los n\u00fameros\n# * de una lista que suman el valor objetivo.\n# * - La funci\u00f3n recibir\u00e1 una lista de n\u00fameros enteros positivos\n# *   y un valor objetivo.\n# * - Para obtener las combinaciones s\u00f3lo se puede usar\n# *   una vez cada elemento de la lista (pero pueden existir\n# *   elementos repetidos en ella).\n# * - Ejemplo: Lista = [1, 5, 3, 2],  Objetivo = 6\n# *   Soluciones: [1, 5] y [1, 3, 2] (ambas combinaciones suman 6)\n# *   (Si no existen combinaciones, retornar una lista vac\u00eda)\n#"
     },
     "92": {
-        "nombre": "TRIPLES_PITAGORICOS",
+        "nombre": "Triples_pitagoricos",
         "descripcion": "# * Crea una funci\u00f3n que encuentre todos los triples pitag\u00f3ricos\n# * (ternas) menores o iguales a un n\u00famero dado.\n# * - Debes buscar informaci\u00f3n sobre qu\u00e9 es un triple pitag\u00f3rico.\n# * - La funci\u00f3n \u00fanicamente recibe el n\u00famero m\u00e1ximo que puede\n# *   aparecer en el triple.\n# * - Ejemplo: Los triples menores o iguales a 10 est\u00e1n\n# *   formados por (3, 4, 5) y (6, 8, 10).\n#"
     },
     "93": {
-        "nombre": "TABLA_DE_MULTIPLICAR",
+        "nombre": "Tabla_de_multiplicar",
         "descripcion": "# * Crea un programa que sea capaz de solicitarte un n\u00famero y se\n# * encargue de imprimir su tabla de multiplicar entre el 1 y el 10.\n# * - Debe visualizarse qu\u00e9 operaci\u00f3n se realiza y su resultado.\n# *   Ej: 1 x 1 = 1\n# *       1 x 2 = 2\n# *       1 x 3 = 3\n# *       ...\n#"
     },
     "94": {
-        "nombre": "LA_CASA_ENCANTADA",
+        "nombre": "La_casa_encantada",
         "descripcion": "# * Este es un reto especial por Halloween.\n# * Te encuentras explorando una mansi\u00f3n abandonada llena de habitaciones.\n# * En cada habitaci\u00f3n tendr\u00e1s que resolver un acertijo para poder avanzar a la siguiente.\n# * Tu misi\u00f3n es encontrar la habitaci\u00f3n de los dulces.\n# *\n# * Se trata de implementar un juego interactivo de preguntas y respuestas por terminal.\n# * (Tienes total libertad para ser creativo con los textos)\n# *\n# * - \ud83c\udff0 Casa: La mansi\u00f3n se corresponde con una estructura cuadrada 4 x 4\n# *   que deber\u00e1s modelar. Las habitaciones de puerta y dulces no tienen enigma.\n# *   (16 habitaciones, siendo una de entrada y otra donde est\u00e1n los dulces)\n# *   Esta podr\u00eda ser una representaci\u00f3n:\n# *   \ud83d\udeaa\u2b1c\ufe0f\u2b1c\ufe0f\u2b1c\ufe0f\n# *   \u2b1c\ufe0f\ud83d\udc7b\u2b1c\ufe0f\u2b1c\ufe0f\n# *   \u2b1c\ufe0f\u2b1c\ufe0f\u2b1c\ufe0f\ud83d\udc7b\n# *   \u2b1c\ufe0f\u2b1c\ufe0f\ud83c\udf6d\u2b1c\ufe0f\n# * - \u2753 Enigmas: Cada habitaci\u00f3n propone un enigma aleatorio que deber\u00e1s responder con texto.\n# *   Si no lo aciertas no podr\u00e1s desplazarte.\n# * - \ud83e\udded Movimiento: Si resuelves el enigma se te preguntar\u00e1 a donde quieres desplazarte.\n# *   (Ejemplo: norte/sur/este/oeste. S\u00f3lo deben proporcionarse las opciones posibles)\n# * - \ud83c\udf6d Salida: Sales de la casa si encuentras la habitaci\u00f3n de los dulces.\n# * - \ud83d\udc7b (Bonus) Fantasmas: Existe un 10% de que en una habitaci\u00f3n aparezca un fantasma y\n# *   tengas que responder dos preguntas para salir de ella.\n#"
     },
     "95": {
-        "nombre": "PUNTO_DE_ENCUENTRO",
+        "nombre": "Punto_de_encuentro",
         "descripcion": "# * Crea una funci\u00f3n que calcule el punto de encuentro de dos objetos en movimiento\n# * en dos dimensiones.\n# * - Cada objeto est\u00e1 compuesto por una coordenada xy y una velocidad de desplazamiento\n# *   (vector de desplazamiento) por unidad de tiempo (tambi\u00e9n en formato xy).\n# * - La funci\u00f3n recibir\u00e1 las coordenadas de inicio de ambos objetos y sus velocidades.\n# * - La funci\u00f3n calcular\u00e1 y mostrar\u00e1 el punto en el que se encuentran y el tiempo que\n# *   tardarn en lograrlo.\n# * - La funci\u00f3n debe tener en cuenta que los objetos pueden no llegar a encontrarse.\n#"
     },
     "96": {
-        "nombre": "SIMULADOR_DE_CLIMA",
+        "nombre": "Simulador_de_clima",
         "descripcion": "# * Crea una funci\u00f3n que simule las condiciones clim\u00e1ticas (temperatura y probabilidad de lluvia)\n# * de un lugar ficticio al pasar un n\u00famero concreto de d\u00edas seg\u00fan estas reglas:\n# * - La temperatura inicial y el % de probabilidad de lluvia lo define el usuario.\n# * - Cada d\u00eda que pasa:\n# *   - 10% de posibilidades de que la temperatura aumente o disminuya 2 grados.\n# *   - Si la temperatura supera los 25 grados, la probabilidad de lluvia al d\u00eda\n# *     siguiente aumenta en un 20%.\n# *   - Si la temperatura baja de 5 grados, la probabilidad de lluvia al d\u00eda\n# *     siguiente disminuya en un 20%.\n# *   - Si llueve (100%), la temperatura del d\u00eda siguiente disminuye en 1 grado.\n# * - La funci\u00f3n recibe el n\u00famero de d\u00edas de la predicci\u00f3n y muestra la temperatura\n# *   y si llueve durante todos esos d\u00edas.\n# * - Tambi\u00e9n mostrar\u00e1 la temperatura m\u00e1xima y m\u00ednima de ese periodo y cu\u00e1ntos d\u00edas va a llover.\n#"
     },
     "97": {
-        "nombre": "ADIVINANZAS_MATEMATICAS",
+        "nombre": "Adivinanzas_matematicas",
         "descripcion": "# * Crea un juego interactivo por terminal en el que tendr\u00e1s que adivinar\n# * el resultado de diferentes operaciones matem\u00e1ticas aleatorias\n# * (suma, resta, multiplicaci\u00f3n o divisi\u00f3n de dos n\u00fameros enteros).\n# * - Tendr\u00e1s 3 segundos para responder correctamente.\n# * - El juego finaliza si no se logra responder en ese tiempo.\n# * - Al finalizar el juego debes mostrar cu\u00e1ntos c\u00e1lculos has acertado.\n# * - Cada 5 aciertos debes aumentar en uno el posible n\u00famero de cifras\n# *   de la operaci\u00f3n (cada vez en un operando):\n# *   - Preguntas 1 a 5: X (entre 0 y 9) operaci\u00f3n Y (entre 0 y 9)\n# *   - Preguntas 6 a 10: XX (entre 0 y 99) operaci\u00f3n Y (entre 0 y 9)\n# *   - Preguntas 11 a 15: XX operaci\u00f3n YY\n# *   - Preguntas 16 a 20: XXX (entre 0 y 999) operaci\u00f3n YY\n# *   ..\n#"
     },
     "98": {
-        "nombre": "EL_CALENDARIO_DE_ADEVIENTO_2023",
+        "nombre": "El_calendario_de_adeviento_2023",
         "descripcion": "# * \u00bfConoces el calendario de aDEViento de la comunidad (https://adviento.dev)?\n# * 24 d\u00edas, 24 regalos sorpresa relacionados con desarrollo de software.\n# * Desde el 1 al 24 de diciembre.\n# *\n# * Crea un programa que simule el mecanismo de participaci\u00f3n:\n# * - Mediante la terminal, el programa te preguntar\u00e1 si quieres a\u00f1adir y borrar\n# *   participantes, mostrarlos, lanzar el sorteo o salir.\n# * - Si seleccionas a\u00f1adir un participante, podr\u00e1s escribir su nombre y pulsar enter.\n# * - Si seleccionas a\u00f1adir un participante, y este ya existe, avisar\u00e1s de ello.\n# *   (Y no lo duplicar\u00e1s)\n# * - Si seleccionas mostrar los participantes, se listar\u00e1n todos.\n# * - Si seleccionas eliminar un participante, podr\u00e1s escribir su nombre y pulsar enter.\n# *   (Avisando de si lo has eliminado o el nombre no existe)\n# * - Si seleccionas realizar el sorteo, elegir\u00e1s una persona al azar\n# *   y se eliminar\u00e1 del listado.\n# * - Si seleccionas salir, el programa finalizar\u00e1.\n#"
     },
     "99": {
-        "nombre": "LA_CARRERA_DE_COCHES",
+        "nombre": "La_carrera_de_coches",
         "descripcion": "# * Crea un programa que simule la competici\u00f3n de dos coches en una pista.\n# * - Los dos coches estar\u00e1n representados por \ud83d\ude99 y \ud83d\ude97. Y la meta por \ud83c\udfc1.\n# * - Cada pista tendr\u00e1 entre 1 y 3 \u00e1rboles \ud83c\udf32 colocados de forma aleatoria.\n# * - Las dos pistas tendr\u00e1n una longitud configurable de guiones bajos \"_\".\n# * - Los coches comenzar\u00e1n en la parte derecha de las pistas. Ejemplo:\n# *   \ud83c\udfc1____\ud83c\udf32_____\ud83d\ude99\n# *   \ud83c\udfc1_\ud83c\udf32____\ud83c\udf32___\ud83d\ude97\n# *\n# * El juego se desarrolla por turnos de forma autom\u00e1tica, y cada segundo\n# * se realiza una acci\u00f3n sobre los coches (movi\u00e9ndose a la vez), hasta que\n# * uno de ellos (o los dos a la vez) llega a la meta.\n# * - Acciones:\n# *   - Avanzar entre 1 a 3 posiciones hacia la meta.\n# *   - Si al avanzar, el coche finaliza en la posici\u00f3n de un \u00e1rbol,\n# *     se muestra \ud83d\udca5 y no avanza durante un turno.\n# *   - Cada turno se imprimen las pistas y sus elementos.\n# *   - Cuando la carrera finalice, se muestra el coche ganador o el empate.\n#"
     },
     "100": {
-        "nombre": "LA_PALABRA_DE_100_PUNTOS",
+        "nombre": "La_palabra_de_100_puntos",
         "descripcion": "# * La \u00faltima semana de 2021 comenzamos la actividad de retos de programaci\u00f3n,\n# * con la intenci\u00f3n de resolver un ejercicio cada semana para mejorar\n# * nuestra l\u00f3gica... \u00a1Hemos llegado al EJERCICIO 100! Gracias \ud83d\ude4c\n# *\n# * Crea un programa que calcule los puntos de una palabra.\n# * - Cada letra tiene un valor asignado. Por ejemplo, en el abecedario\n# *   espa\u00f1ol de 27 letras, la A vale 1 y la Z 27.\n# * - El programa muestra el valor de los puntos de cada palabra introducida.\n# * - El programa finaliza si logras introducir una palabra de 100 puntos.\n# * - Puedes usar la terminal para interactuar con el usuario y solicitarle\n# *   cada palabra.\n#"
     }
 }

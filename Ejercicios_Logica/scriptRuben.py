@@ -30,9 +30,14 @@ def scrapper_reto() -> str:
         Numero = int(NReto.text.replace("#", ""))
 
         acentos = unicodedata.normalize('NFKD', titulo.text).encode(
-            'ASCII', 'ignore').decode('utf-8')  # * Se limpio de acentos
-        limpio = acentos.replace("¿", "").replace(
-            "?", "").replace('"', "").replace(" ", "_")
+            # * Se limpio de acentos
+            'ASCII', 'ignore').decode('utf-8').replace(" ", "_")
+        excluir = ["¿", "?", '"']
+        for i in excluir:
+            acentos = acentos.replace(i, "")
+        limpio = acentos.lower().capitalize()
+        # limpio = acentos.replace("¿", "").replace(
+        #     "?", "").replace('"', "").replace(" ", "_").lower().capitalize()
         descripcion_comentada = descripcion.text.strip().replace(
             "\n", "\n#").replace("*/", "").replace("/*", "")
 
@@ -42,33 +47,39 @@ def scrapper_reto() -> str:
             "descripcion": descripcion_comentada.strip("/* \n")
         }
 
-    # TODO: Hacer una opcion para traer los retos, actualizar la base y otra para solo generar el archivo
-
     with open("Retos_programacion.json", "w", encoding="utf-8") as archivo:
-        try:
-            json.dump(banco_de_retos, archivo, indent=4)
-        except Exception as e:
-            return f"Ha ocurrido un error {e}"
-    return "Exito, se Han extraido los retos Correctamente!"
+        json.dump(banco_de_retos, archivo, indent=4)
+        return "Exito, se Han extraido los retos Correctamente!"
 
 
 def buscar_reto(numero: int) -> str:
     """Busca el reto en el Json y entrega un archivo con toda la info"""
-    numero = str(numero)
-    with open("Retos_programacion.json", "r", encoding="utf-8") as retos:
-        lineas = json.load(retos)
-        nombre = lineas[numero]["nombre"]
-        descripcion = lineas[numero]["descripcion"]
-
-        numero = int(numero)
-        with open(f"{numero}_{nombre}.py", "w", encoding="utf-8") as archivo:
-            archivo.write(f"'''{nombre}'''\n")
-            archivo.write(
-                "# pylint: disable = E0001, C0103, C0114,C0115, C0116,W0622,W3101\n")
-            # No presentar el primer y ulitmo caracter porque es un '#' vacio
-            archivo.write(f"#{descripcion[1:-1]}")
-    return "Exito"
+    try:
+        carpeta_destino = "Ejercicios_Logica"
+        if not os.path.exists(carpeta_destino):
+            os.makedirs(carpeta_destino)
+        numero = str(numero)
+        with open("Retos_programacion.json", "r", encoding="utf-8") as retos:
+            lineas = json.load(retos)
+            nombre = lineas[numero]["nombre"]
+            descripcion = lineas[numero]["descripcion"]
+            numero = int(numero)
+            nombre_archivo = f"{numero}_{nombre}.py"
+            ruta_completa = os.path.join(carpeta_destino, nombre_archivo)
+            if ruta_completa:
+                return "Ya hay un archivo asi creado"
+            with open(ruta_completa, "w", encoding="utf-8") as archivo:
+                archivo.write(f"'''{nombre.replace("_", " ")}'''\n")
+                archivo.write(
+                    "# pylint: disable = E0001, C0103, C0114,C0115, C0116,W0622,W3101\n")
+                # No presentar el primer y ulitmo caracter porque es un '#' vacio
+                archivo.write(f"#{descripcion[1:-1]}")
+        return "Exito"
+    except KeyError:
+        return f"No hay un reto {numero}"
+    except NameError:
+        return f"No se pueden usar letras {numero}"
 
 
 print(scrapper_reto())
-print(buscar_reto(35))
+print(buscar_reto(43))
