@@ -1,0 +1,2407 @@
+[
+    {
+        "sha": "49f4f8493cc16027cd28f6ec7544925b7ea95739",
+        "node_id": "C_kwDOIqIdX9oAKDQ5ZjRmODQ5M2NjMTYwMjdjZDI4ZjZlYzc1NDQ5MjViN2VhOTU3Mzk",
+        "commit": {
+            "author": {
+                "name": "Ra\u00fal Gallego",
+                "email": "75795616+kontroldev@users.noreply.github.com",
+                "date": "2026-04-22T18:06:01Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2026-04-22T18:06:01Z"
+            },
+            "message": "Merge pull request #6830 from antonioverdugo/main\n\nReto #0 - Rust - PHP",
+            "tree": {
+                "sha": "017635540d8417fd0010dad0fafae5b1096f94ed",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/017635540d8417fd0010dad0fafae5b1096f94ed"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/49f4f8493cc16027cd28f6ec7544925b7ea95739",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJp6Q4JCRC1aQ7uu5UhlAAAy2MQAC2xeGBNtk+i3dG4p6u7F0Qr\n0w/36ohVv3NdrELBVBeq7mMYnh2EzASW7JWHuaHwmqwySV10ld4saHHfR1p4f7qr\nNW3uDezBe/l6pVXCO3vRBUkvY0+XkRw6Pa0R5eFP8xb5zLUBvo4FmkQpMJkFw9jR\nzgrXlJvYa1yb0uHuc1xo+jPdrqonlIcAyqU/ioCpW2nW9CZPDkLoto1IhnqfBRk/\nH31GomGGiriyn7unwG1jAo3dD5kEgA7A+VZtCrbg5tAe5O98L9bk+XStU/8yN/U7\nmy+8IjVuogT0c6Bj3bvGEd+6mPqzzRcBxhJ8eY4pfKjdheV4sxUhNsfhqfnSI/jU\nUKkcm+ABrrPArCtgbXI3BYpVcPtGEEk1UBEDKN+gpAa5raziS5Uvx5rAwpmT8WYu\nKnTI4FTVCNwCRpnfg7RxO2ClsxKzf3AzI+tjzI5By/OG8hSqJuUMhG7Y3Anw/ZxN\np9FffQizItqNeDSvRvlbi586B9M5kWlgCffm38L+g2srEGzIGqAoohF7skzocIUo\nx819GT9lEmHihaUoc19+OVWToteo6qunxIm8Sv+3Vf3EiVDWauOCVWUGC7CRio6H\nLGT6yEU084qDjJGhufwn+m2r3uLGMYAifmwTNErGCOP1Gv213x0fi7um1Tv6Y/LI\nTAytdnJGqo6YCA1u0nWJ\n=SIc7\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 017635540d8417fd0010dad0fafae5b1096f94ed\nparent 8348715d4e08f2202c2affda4320686b25f7e437\nparent bddcbf1cba1a09f4142b290ee08e79f9163dcbc5\nauthor Ra\u00fal Gallego <75795616+kontroldev@users.noreply.github.com> 1776881161 +0200\ncommitter GitHub <noreply@github.com> 1776881161 +0200\n\nMerge pull request #6830 from antonioverdugo/main\n\nReto #0 - Rust - PHP",
+                "verified_at": "2026-04-22T18:06:02Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/49f4f8493cc16027cd28f6ec7544925b7ea95739",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/49f4f8493cc16027cd28f6ec7544925b7ea95739",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/49f4f8493cc16027cd28f6ec7544925b7ea95739/comments",
+        "author": {
+            "login": "kontroldev",
+            "id": 75795616,
+            "node_id": "MDQ6VXNlcjc1Nzk1NjE2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75795616?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kontroldev",
+            "html_url": "https://github.com/kontroldev",
+            "followers_url": "https://api.github.com/users/kontroldev/followers",
+            "following_url": "https://api.github.com/users/kontroldev/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kontroldev/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kontroldev/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kontroldev/subscriptions",
+            "organizations_url": "https://api.github.com/users/kontroldev/orgs",
+            "repos_url": "https://api.github.com/users/kontroldev/repos",
+            "events_url": "https://api.github.com/users/kontroldev/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kontroldev/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8348715d4e08f2202c2affda4320686b25f7e437",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/8348715d4e08f2202c2affda4320686b25f7e437",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/8348715d4e08f2202c2affda4320686b25f7e437"
+            },
+            {
+                "sha": "bddcbf1cba1a09f4142b290ee08e79f9163dcbc5",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/bddcbf1cba1a09f4142b290ee08e79f9163dcbc5",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/bddcbf1cba1a09f4142b290ee08e79f9163dcbc5"
+            }
+        ]
+    },
+    {
+        "sha": "bddcbf1cba1a09f4142b290ee08e79f9163dcbc5",
+        "node_id": "C_kwDOIqIdX9oAKGJkZGNiZjFjYmExYTA5ZjQxNDJiMjkwZWUwOGU3OWY5MTYzZGNiYzU",
+        "commit": {
+            "author": {
+                "name": "luciaantoniopc",
+                "email": "luciaantoniopc@luciaantoniopc.luciaantoniopc",
+                "date": "2026-04-15T16:20:36Z"
+            },
+            "committer": {
+                "name": "luciaantoniopc",
+                "email": "luciaantoniopc@luciaantoniopc.luciaantoniopc",
+                "date": "2026-04-15T16:20:36Z"
+            },
+            "message": "Cambio de nombre reto",
+            "tree": {
+                "sha": "017635540d8417fd0010dad0fafae5b1096f94ed",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/017635540d8417fd0010dad0fafae5b1096f94ed"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/bddcbf1cba1a09f4142b290ee08e79f9163dcbc5",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/bddcbf1cba1a09f4142b290ee08e79f9163dcbc5",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/bddcbf1cba1a09f4142b290ee08e79f9163dcbc5",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/bddcbf1cba1a09f4142b290ee08e79f9163dcbc5/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "cad103e5da9b2c49f8c3aa3bf4576fce4b9bc331",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/cad103e5da9b2c49f8c3aa3bf4576fce4b9bc331",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/cad103e5da9b2c49f8c3aa3bf4576fce4b9bc331"
+            }
+        ]
+    },
+    {
+        "sha": "cad103e5da9b2c49f8c3aa3bf4576fce4b9bc331",
+        "node_id": "C_kwDOIqIdX9oAKGNhZDEwM2U1ZGE5YjJjNDlmOGMzYWEzYmY0NTc2ZmNlNGI5YmMzMzE",
+        "commit": {
+            "author": {
+                "name": "luciaantoniopc",
+                "email": "luciaantoniopc@luciaantoniopc.luciaantoniopc",
+                "date": "2026-04-15T16:17:13Z"
+            },
+            "committer": {
+                "name": "luciaantoniopc",
+                "email": "luciaantoniopc@luciaantoniopc.luciaantoniopc",
+                "date": "2026-04-15T16:17:13Z"
+            },
+            "message": "Fizz - Buzz antonioverdugo",
+            "tree": {
+                "sha": "441ef9cd899baf27a8fbca3e1a78a4946f511a22",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/441ef9cd899baf27a8fbca3e1a78a4946f511a22"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/cad103e5da9b2c49f8c3aa3bf4576fce4b9bc331",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/cad103e5da9b2c49f8c3aa3bf4576fce4b9bc331",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/cad103e5da9b2c49f8c3aa3bf4576fce4b9bc331",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/cad103e5da9b2c49f8c3aa3bf4576fce4b9bc331/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "96f76cde1a69c9089fb6f996d1e1a0b83dfc1f2e",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/96f76cde1a69c9089fb6f996d1e1a0b83dfc1f2e",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/96f76cde1a69c9089fb6f996d1e1a0b83dfc1f2e"
+            }
+        ]
+    },
+    {
+        "sha": "96f76cde1a69c9089fb6f996d1e1a0b83dfc1f2e",
+        "node_id": "C_kwDOIqIdX9oAKDk2Zjc2Y2RlMWE2OWM5MDg5ZmI2Zjk5NmQxZTFhMGI4M2RmYzFmMmU",
+        "commit": {
+            "author": {
+                "name": "luciaantoniopc",
+                "email": "luciaantoniopc@luciaantoniopc.luciaantoniopc",
+                "date": "2026-04-15T16:04:04Z"
+            },
+            "committer": {
+                "name": "luciaantoniopc",
+                "email": "luciaantoniopc@luciaantoniopc.luciaantoniopc",
+                "date": "2026-04-15T16:04:04Z"
+            },
+            "message": "Fizz Buzz Antonio Verdugo",
+            "tree": {
+                "sha": "bad3c97c1b3b71dd892408c9b67d5aa3b2c45169",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/bad3c97c1b3b71dd892408c9b67d5aa3b2c45169"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/96f76cde1a69c9089fb6f996d1e1a0b83dfc1f2e",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/96f76cde1a69c9089fb6f996d1e1a0b83dfc1f2e",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/96f76cde1a69c9089fb6f996d1e1a0b83dfc1f2e",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/96f76cde1a69c9089fb6f996d1e1a0b83dfc1f2e/comments",
+        "author": null,
+        "committer": null,
+        "parents": [
+            {
+                "sha": "8348715d4e08f2202c2affda4320686b25f7e437",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/8348715d4e08f2202c2affda4320686b25f7e437",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/8348715d4e08f2202c2affda4320686b25f7e437"
+            }
+        ]
+    },
+    {
+        "sha": "8348715d4e08f2202c2affda4320686b25f7e437",
+        "node_id": "C_kwDOIqIdX9oAKDgzNDg3MTVkNGUwOGYyMjAyYzJhZmZkYTQzMjA2ODZiMjVmN2U0Mzc",
+        "commit": {
+            "author": {
+                "name": "Bruce",
+                "email": "88008233+Roswell468@users.noreply.github.com",
+                "date": "2025-12-09T14:25:34Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-12-09T14:25:34Z"
+            },
+            "message": "Merge pull request #6829 from Flashborne/main\n\nReto #0 - Java",
+            "tree": {
+                "sha": "db3c0851650c9b3d8bd328966f367d49912e8a13",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/db3c0851650c9b3d8bd328966f367d49912e8a13"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/8348715d4e08f2202c2affda4320686b25f7e437",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpODFeCRC1aQ7uu5UhlAAApGIQAIDZri/l1H0i7ADKWj64S3Hs\nhe5bIwAAeiq9s7jW1vBLFvYa3AL+jvdTHnFEpah/GuzCSgiQSyDhqLMiBBa1Lxw8\nCKRisvmDUhBt+QxkVgTQaSmcUVXxkZXo4TGBn3z7OvHLzUmG6M3izQMLzSijtoLf\n9C8Sh/vLjJ3QcSjEYiTsmXgb8yVghDj9Nj0+N4DMs3oazdtrSG1ehAs2BPRYzp7n\nMzrtkzVy7ItdBtreIpUrp447aySp7Bihb9SAJFfTGs/7BOlyVevGcxWRSRR2OVBA\n9cO8Qq+wvlWNw1sm75Or1g0U+uRu4Y8Xr133Uv1SPtRAckNOWTVhH5vJO08P4+QC\n/NDUgDZn1LD9g0L3Jj7KdbPnYmW78TUX3dvGNddnTTdBuKsrqNNUdco6R0+sk/nI\nxGPpgVFl5KuH0t938scxuXULUoU6vkDy81M0KyGIqPNYbg1NNRn5d4/fzhwl1ary\nnUBwTcqwQK8coIe31yr5Y+YBUSKg8rajzk+1GwuDieqNwAhNI6Vy4+FsU1l2U9oj\nvoPRTbBgXrGWpSMJ6A9VvL3GPDGxjvE9hSDWi1XAkfD05/M5Fx7RRSMv9G2YqUiA\nt1X2m1fIjNAIlzEpmqHgLnhlXL6c9yax/qaXFtNaa4DfH0MfRl9cma0BDzrjl18P\nZ5i3uYyl+w1FEUv8Hc82\n=Yqum\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree db3c0851650c9b3d8bd328966f367d49912e8a13\nparent 4b085f7a95b36646223cfb1333986876a59bdc39\nparent f66724d624d3115bae83e69d2ff40d00239a8b99\nauthor Bruce <88008233+Roswell468@users.noreply.github.com> 1765290334 -0300\ncommitter GitHub <noreply@github.com> 1765290334 -0300\n\nMerge pull request #6829 from Flashborne/main\n\nReto #0 - Java",
+                "verified_at": "2025-12-09T14:25:35Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/8348715d4e08f2202c2affda4320686b25f7e437",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/8348715d4e08f2202c2affda4320686b25f7e437",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/8348715d4e08f2202c2affda4320686b25f7e437/comments",
+        "author": {
+            "login": "Roswell468",
+            "id": 88008233,
+            "node_id": "MDQ6VXNlcjg4MDA4MjMz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88008233?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Roswell468",
+            "html_url": "https://github.com/Roswell468",
+            "followers_url": "https://api.github.com/users/Roswell468/followers",
+            "following_url": "https://api.github.com/users/Roswell468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Roswell468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Roswell468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Roswell468/subscriptions",
+            "organizations_url": "https://api.github.com/users/Roswell468/orgs",
+            "repos_url": "https://api.github.com/users/Roswell468/repos",
+            "events_url": "https://api.github.com/users/Roswell468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Roswell468/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4b085f7a95b36646223cfb1333986876a59bdc39",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/4b085f7a95b36646223cfb1333986876a59bdc39",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/4b085f7a95b36646223cfb1333986876a59bdc39"
+            },
+            {
+                "sha": "f66724d624d3115bae83e69d2ff40d00239a8b99",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/f66724d624d3115bae83e69d2ff40d00239a8b99",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/f66724d624d3115bae83e69d2ff40d00239a8b99"
+            }
+        ]
+    },
+    {
+        "sha": "4b085f7a95b36646223cfb1333986876a59bdc39",
+        "node_id": "C_kwDOIqIdX9oAKDRiMDg1ZjdhOTViMzY2NDYyMjNjZmIxMzMzOTg2ODc2YTU5YmRjMzk",
+        "commit": {
+            "author": {
+                "name": "Bruce",
+                "email": "88008233+Roswell468@users.noreply.github.com",
+                "date": "2025-12-09T14:25:04Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-12-09T14:25:04Z"
+            },
+            "message": "Merge pull request #6828 from Rodo-Missan/main\n\nReto #0 - Python",
+            "tree": {
+                "sha": "5cec0dfb5a17655f9a328cb81295606f89936e0c",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/5cec0dfb5a17655f9a328cb81295606f89936e0c"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/4b085f7a95b36646223cfb1333986876a59bdc39",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpODFACRC1aQ7uu5UhlAAAEDYQAI3VweEwnQRp77d34cVbtvao\no3pQaq+gAV8wsssj+dHc8joisiLizMRv1ZDvbsuBIpQwKU8I7D+RGV2cUdtweC6S\nAkAR+HLY+I5EbJRRh5EYUeqGnIt2TD8ELrTyEnNn0cf9cci2Tkr6ZsAcln+IXRWx\nJmyAeOKfnDz8qplbtty7EK/HhE0DMPwnP68vnNLQk3jP4c1E+ochfgB8uVxW38Xy\nn5rYA2qFIZX7V1K5NTxgEjpoDjb05rNaLYs13C3q3ylKOPo4HyQmnFC3P+vBQYOC\njMKVUZ2q7XdgbPq+zh8/6en4tWCQ1XVIT0KSRZtt/XkDrQs2eNfsf/IDpP64DtbS\nWGVGt/kJ9PZYNMlUxNWvrnOujP1N//Teq3WxGmL+o+jfXiNTct0UIOPPDp31VAYD\nkmSKyQBVRIq1ewZw1lUiUY8ONVxjGm40lDGK3Vmew21dRnM3BEcNdewApDHbKruq\nMA2O2LND1/27rVc0oz96iQuXUXbrge+1Vt9sUiSOBOXo18XR5sMAjneLqIP+/v53\nmFjhZq4t53E/o8haKcf8lIlfOdZJWiWcb+NTnz9SgjthZFRa/NtpR84p6BRcPCAK\nGputy84idZGMmt2K4vom757cwhahI0oXEabsr9PsICeiYulndemZW9zXUgUjyrQH\nnNrS9T3f1PepRFBVX5dM\n=HAe3\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 5cec0dfb5a17655f9a328cb81295606f89936e0c\nparent a30e17ff762f6da70f04188dea8ad10cb7122b56\nparent c99f622a24941c2d91f6ea289dd4714840425b49\nauthor Bruce <88008233+Roswell468@users.noreply.github.com> 1765290304 -0300\ncommitter GitHub <noreply@github.com> 1765290304 -0300\n\nMerge pull request #6828 from Rodo-Missan/main\n\nReto #0 - Python",
+                "verified_at": "2025-12-09T14:25:04Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/4b085f7a95b36646223cfb1333986876a59bdc39",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/4b085f7a95b36646223cfb1333986876a59bdc39",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/4b085f7a95b36646223cfb1333986876a59bdc39/comments",
+        "author": {
+            "login": "Roswell468",
+            "id": 88008233,
+            "node_id": "MDQ6VXNlcjg4MDA4MjMz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88008233?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Roswell468",
+            "html_url": "https://github.com/Roswell468",
+            "followers_url": "https://api.github.com/users/Roswell468/followers",
+            "following_url": "https://api.github.com/users/Roswell468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Roswell468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Roswell468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Roswell468/subscriptions",
+            "organizations_url": "https://api.github.com/users/Roswell468/orgs",
+            "repos_url": "https://api.github.com/users/Roswell468/repos",
+            "events_url": "https://api.github.com/users/Roswell468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Roswell468/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a30e17ff762f6da70f04188dea8ad10cb7122b56",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/a30e17ff762f6da70f04188dea8ad10cb7122b56",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/a30e17ff762f6da70f04188dea8ad10cb7122b56"
+            },
+            {
+                "sha": "c99f622a24941c2d91f6ea289dd4714840425b49",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/c99f622a24941c2d91f6ea289dd4714840425b49",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/c99f622a24941c2d91f6ea289dd4714840425b49"
+            }
+        ]
+    },
+    {
+        "sha": "f66724d624d3115bae83e69d2ff40d00239a8b99",
+        "node_id": "C_kwDOIqIdX9oAKGY2NjcyNGQ2MjRkMzExNWJhZTgzZTY5ZDJmZjQwZDAwMjM5YThiOTk",
+        "commit": {
+            "author": {
+                "name": "JesusDeLaCruzR03",
+                "email": "jesusrdlreyes03@gmail.com",
+                "date": "2025-12-07T00:03:59Z"
+            },
+            "committer": {
+                "name": "JesusDeLaCruzR03",
+                "email": "jesusrdlreyes03@gmail.com",
+                "date": "2025-12-07T00:03:59Z"
+            },
+            "message": "Mi Solucion para Reto #1 Lenguaje Hacker",
+            "tree": {
+                "sha": "42ee20655d52947aa0f00923a547c17150fece0c",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/42ee20655d52947aa0f00923a547c17150fece0c"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/f66724d624d3115bae83e69d2ff40d00239a8b99",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/f66724d624d3115bae83e69d2ff40d00239a8b99",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/f66724d624d3115bae83e69d2ff40d00239a8b99",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/f66724d624d3115bae83e69d2ff40d00239a8b99/comments",
+        "author": {
+            "login": "Flashborne",
+            "id": 121737579,
+            "node_id": "U_kgDOB0GRaw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/121737579?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Flashborne",
+            "html_url": "https://github.com/Flashborne",
+            "followers_url": "https://api.github.com/users/Flashborne/followers",
+            "following_url": "https://api.github.com/users/Flashborne/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Flashborne/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Flashborne/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Flashborne/subscriptions",
+            "organizations_url": "https://api.github.com/users/Flashborne/orgs",
+            "repos_url": "https://api.github.com/users/Flashborne/repos",
+            "events_url": "https://api.github.com/users/Flashborne/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Flashborne/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Flashborne",
+            "id": 121737579,
+            "node_id": "U_kgDOB0GRaw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/121737579?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Flashborne",
+            "html_url": "https://github.com/Flashborne",
+            "followers_url": "https://api.github.com/users/Flashborne/followers",
+            "following_url": "https://api.github.com/users/Flashborne/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Flashborne/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Flashborne/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Flashborne/subscriptions",
+            "organizations_url": "https://api.github.com/users/Flashborne/orgs",
+            "repos_url": "https://api.github.com/users/Flashborne/repos",
+            "events_url": "https://api.github.com/users/Flashborne/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Flashborne/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d14fcf05520357932bba1b5a1e672c4cdcc540d3",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/d14fcf05520357932bba1b5a1e672c4cdcc540d3",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/d14fcf05520357932bba1b5a1e672c4cdcc540d3"
+            }
+        ]
+    },
+    {
+        "sha": "d14fcf05520357932bba1b5a1e672c4cdcc540d3",
+        "node_id": "C_kwDOIqIdX9oAKGQxNGZjZjA1NTIwMzU3OTMyYmJhMWI1YTFlNjcyYzRjZGNjNTQwZDM",
+        "commit": {
+            "author": {
+                "name": "JesusDeLaCruzR03",
+                "email": "jesusrdlreyes03@gmail.com",
+                "date": "2025-12-06T22:38:11Z"
+            },
+            "committer": {
+                "name": "JesusDeLaCruzR03",
+                "email": "jesusrdlreyes03@gmail.com",
+                "date": "2025-12-06T22:38:11Z"
+            },
+            "message": "Reto #0 Java",
+            "tree": {
+                "sha": "c2fae29ff2280dd02bd2d1e8e9ddaf7764770641",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/c2fae29ff2280dd02bd2d1e8e9ddaf7764770641"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/d14fcf05520357932bba1b5a1e672c4cdcc540d3",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/d14fcf05520357932bba1b5a1e672c4cdcc540d3",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/d14fcf05520357932bba1b5a1e672c4cdcc540d3",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/d14fcf05520357932bba1b5a1e672c4cdcc540d3/comments",
+        "author": {
+            "login": "Flashborne",
+            "id": 121737579,
+            "node_id": "U_kgDOB0GRaw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/121737579?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Flashborne",
+            "html_url": "https://github.com/Flashborne",
+            "followers_url": "https://api.github.com/users/Flashborne/followers",
+            "following_url": "https://api.github.com/users/Flashborne/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Flashborne/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Flashborne/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Flashborne/subscriptions",
+            "organizations_url": "https://api.github.com/users/Flashborne/orgs",
+            "repos_url": "https://api.github.com/users/Flashborne/repos",
+            "events_url": "https://api.github.com/users/Flashborne/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Flashborne/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Flashborne",
+            "id": 121737579,
+            "node_id": "U_kgDOB0GRaw",
+            "avatar_url": "https://avatars.githubusercontent.com/u/121737579?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Flashborne",
+            "html_url": "https://github.com/Flashborne",
+            "followers_url": "https://api.github.com/users/Flashborne/followers",
+            "following_url": "https://api.github.com/users/Flashborne/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Flashborne/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Flashborne/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Flashborne/subscriptions",
+            "organizations_url": "https://api.github.com/users/Flashborne/orgs",
+            "repos_url": "https://api.github.com/users/Flashborne/repos",
+            "events_url": "https://api.github.com/users/Flashborne/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Flashborne/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "a30e17ff762f6da70f04188dea8ad10cb7122b56",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/a30e17ff762f6da70f04188dea8ad10cb7122b56",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/a30e17ff762f6da70f04188dea8ad10cb7122b56"
+            }
+        ]
+    },
+    {
+        "sha": "a30e17ff762f6da70f04188dea8ad10cb7122b56",
+        "node_id": "C_kwDOIqIdX9oAKGEzMGUxN2ZmNzYyZjZkYTcwZjA0MTg4ZGVhOGFkMTBjYjcxMjJiNTY",
+        "commit": {
+            "author": {
+                "name": "Ra\u00fal Gallego",
+                "email": "75795616+kontroldev@users.noreply.github.com",
+                "date": "2025-12-04T19:26:45Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-12-04T19:26:45Z"
+            },
+            "message": "Merge pull request #6827 from Maanghel/main\n\n#33 - Python",
+            "tree": {
+                "sha": "42340214cf6ef71a36737ee650709b7b25694dc8",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/42340214cf6ef71a36737ee650709b7b25694dc8"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/a30e17ff762f6da70f04188dea8ad10cb7122b56",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpMeB1CRC1aQ7uu5UhlAAATJ4QAKn+yNMOZ+vF3ZlgUOxTExjx\ns3Q0ln53dLWNlZdMg7ZELRIw2MelOSyszOFiT/FSwDNZA++xMeW6MRs5L/vLRxIm\nemW7dSXbHJQT3DWPpv44gFjDCvHnVo0ZQblk3R9PmEIHLJIEUSvMs9FBtefrFJa6\n/6WzTZ7TAPf9yX1iF6i8OxZqXdQukR7IqVvTbkZ3uwPikGg+TismtaB4USzc6CrP\nIrsAW04bJhKzQlwzJ9aKdCNpZUTyGFmILjeWeT0Uh2yvwmWpEsDizzEuCF1aNM7b\nTJfE65U1NAaPBNkHG5uLZA8tzu3o1q9PB3pa3lbjiDM6jYRCXggSIKWrb+hSWjXj\nAF7ilfhCdh+HoSO0LC3sAd6kzdwwM9SNa7Z9HDVLxVUrVemRbhLjLDjd0uJNggkt\najwPTDA68J2MmfUWudTsY8OD4SwQzKRP9EGBHpNcYhEwQQ8SHYfnlajso/FTOyHd\nIVMv/RsnN3GYK0D+y2P9JbYEx2eEyvZxg2pF5svxS2E8GJs3gnIln4jXKKKm4Kr0\nbLTPKs3e7PqFQAkrhdLYZSZaEWzbbB4ut0Y3DK6VyG3SMHyiGSYXTKzd9wMssE+R\nl3KBwiNKDkumUFefXJQpdcOVncXh6AqQSZuqhNU7VRkYxobXeiUkAmn6quktQ9UP\nu6o7RvLaI4kn/6tGDkmq\n=zWbl\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 42340214cf6ef71a36737ee650709b7b25694dc8\nparent d11a59d841cf08bdb4ca8722e34c45519e0cea7c\nparent fca3cf95b388d0923e8b60ad7281a7d90e7150f5\nauthor Ra\u00fal Gallego <75795616+kontroldev@users.noreply.github.com> 1764876405 +0100\ncommitter GitHub <noreply@github.com> 1764876405 +0100\n\nMerge pull request #6827 from Maanghel/main\n\n#33 - Python",
+                "verified_at": "2025-12-04T19:26:45Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/a30e17ff762f6da70f04188dea8ad10cb7122b56",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/a30e17ff762f6da70f04188dea8ad10cb7122b56",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/a30e17ff762f6da70f04188dea8ad10cb7122b56/comments",
+        "author": {
+            "login": "kontroldev",
+            "id": 75795616,
+            "node_id": "MDQ6VXNlcjc1Nzk1NjE2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75795616?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kontroldev",
+            "html_url": "https://github.com/kontroldev",
+            "followers_url": "https://api.github.com/users/kontroldev/followers",
+            "following_url": "https://api.github.com/users/kontroldev/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kontroldev/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kontroldev/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kontroldev/subscriptions",
+            "organizations_url": "https://api.github.com/users/kontroldev/orgs",
+            "repos_url": "https://api.github.com/users/kontroldev/repos",
+            "events_url": "https://api.github.com/users/kontroldev/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kontroldev/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d11a59d841cf08bdb4ca8722e34c45519e0cea7c",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/d11a59d841cf08bdb4ca8722e34c45519e0cea7c",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/d11a59d841cf08bdb4ca8722e34c45519e0cea7c"
+            },
+            {
+                "sha": "fca3cf95b388d0923e8b60ad7281a7d90e7150f5",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/fca3cf95b388d0923e8b60ad7281a7d90e7150f5",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/fca3cf95b388d0923e8b60ad7281a7d90e7150f5"
+            }
+        ]
+    },
+    {
+        "sha": "c99f622a24941c2d91f6ea289dd4714840425b49",
+        "node_id": "C_kwDOIqIdX9oAKGM5OWY2MjJhMjQ5NDFjMmQ5MWY2ZWEyODlkZDQ3MTQ4NDA0MjViNDk",
+        "commit": {
+            "author": {
+                "name": "Jos\u00e9 Miss\u00e1n",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-12-04T12:38:30Z"
+            },
+            "committer": {
+                "name": "Jos\u00e9 Miss\u00e1n",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-12-04T12:38:30Z"
+            },
+            "message": "Nueva soluci\u00f3n del reto #0 en Python",
+            "tree": {
+                "sha": "d42109481309be0bc18a11d54320ba87e9866df1",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/d42109481309be0bc18a11d54320ba87e9866df1"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/c99f622a24941c2d91f6ea289dd4714840425b49",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/c99f622a24941c2d91f6ea289dd4714840425b49",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/c99f622a24941c2d91f6ea289dd4714840425b49",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/c99f622a24941c2d91f6ea289dd4714840425b49/comments",
+        "author": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "398f74189e5490e4cf97490e2682736e45ff413e",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/398f74189e5490e4cf97490e2682736e45ff413e",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/398f74189e5490e4cf97490e2682736e45ff413e"
+            }
+        ]
+    },
+    {
+        "sha": "398f74189e5490e4cf97490e2682736e45ff413e",
+        "node_id": "C_kwDOIqIdX9oAKDM5OGY3NDE4OWU1NDkwZTRjZjk3NDkwZTI2ODI3MzZlNDVmZjQxM2U",
+        "commit": {
+            "author": {
+                "name": "Jos\u00e9 Miss\u00e1n",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-12-04T12:36:09Z"
+            },
+            "committer": {
+                "name": "Jos\u00e9 Miss\u00e1n",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-12-04T12:36:09Z"
+            },
+            "message": "Eliminar soluci\u00f3n del reto #40; dejar solo reto #0",
+            "tree": {
+                "sha": "dc2bed62535f9793f8342609630b416aa5474487",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/dc2bed62535f9793f8342609630b416aa5474487"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/398f74189e5490e4cf97490e2682736e45ff413e",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/398f74189e5490e4cf97490e2682736e45ff413e",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/398f74189e5490e4cf97490e2682736e45ff413e",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/398f74189e5490e4cf97490e2682736e45ff413e/comments",
+        "author": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "28ea20c7701a79227ffa5907f97e7a3ead3e27bb",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/28ea20c7701a79227ffa5907f97e7a3ead3e27bb",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/28ea20c7701a79227ffa5907f97e7a3ead3e27bb"
+            }
+        ]
+    },
+    {
+        "sha": "28ea20c7701a79227ffa5907f97e7a3ead3e27bb",
+        "node_id": "C_kwDOIqIdX9oAKDI4ZWEyMGM3NzAxYTc5MjI3ZmZhNTkwN2Y5N2U3YTNlYWQzZTI3YmI",
+        "commit": {
+            "author": {
+                "name": "Jos\u00e9 Miss\u00e1n",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-12-04T12:24:04Z"
+            },
+            "committer": {
+                "name": "Jos\u00e9 Miss\u00e1n",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-12-04T12:24:04Z"
+            },
+            "message": "Merge branch 'main' of https://github.com/Rodo-Missan/retos-programacion-mouredev",
+            "tree": {
+                "sha": "f7f25fc7ce95b0911557351b0b899eb3cf1cb04e",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/f7f25fc7ce95b0911557351b0b899eb3cf1cb04e"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/28ea20c7701a79227ffa5907f97e7a3ead3e27bb",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/28ea20c7701a79227ffa5907f97e7a3ead3e27bb",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/28ea20c7701a79227ffa5907f97e7a3ead3e27bb",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/28ea20c7701a79227ffa5907f97e7a3ead3e27bb/comments",
+        "author": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6580cb97487d79bcc3642b9a2523d5defba61673",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/6580cb97487d79bcc3642b9a2523d5defba61673",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/6580cb97487d79bcc3642b9a2523d5defba61673"
+            },
+            {
+                "sha": "f5e1ebfc703cf05d91a1f4527045d91b7a5a425c",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/f5e1ebfc703cf05d91a1f4527045d91b7a5a425c",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/f5e1ebfc703cf05d91a1f4527045d91b7a5a425c"
+            }
+        ]
+    },
+    {
+        "sha": "6580cb97487d79bcc3642b9a2523d5defba61673",
+        "node_id": "C_kwDOIqIdX9oAKDY1ODBjYjk3NDg3ZDc5YmNjMzY0MmI5YTI1MjNkNWRlZmJhNjE2NzM",
+        "commit": {
+            "author": {
+                "name": "Jos\u00e9 Miss\u00e1n",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-12-04T12:21:59Z"
+            },
+            "committer": {
+                "name": "Jos\u00e9 Miss\u00e1n",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-12-04T12:21:59Z"
+            },
+            "message": "Solucion al reto #0 en Python",
+            "tree": {
+                "sha": "b96e373eb29931d82a2e97b0fa1ef54fb654dfee",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/b96e373eb29931d82a2e97b0fa1ef54fb654dfee"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/6580cb97487d79bcc3642b9a2523d5defba61673",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/6580cb97487d79bcc3642b9a2523d5defba61673",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/6580cb97487d79bcc3642b9a2523d5defba61673",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/6580cb97487d79bcc3642b9a2523d5defba61673/comments",
+        "author": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "bd86393c56115408975aa19cfe2eb9594b8a541d",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/bd86393c56115408975aa19cfe2eb9594b8a541d",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/bd86393c56115408975aa19cfe2eb9594b8a541d"
+            }
+        ]
+    },
+    {
+        "sha": "f5e1ebfc703cf05d91a1f4527045d91b7a5a425c",
+        "node_id": "C_kwDOIqIdX9oAKGY1ZTFlYmZjNzAzY2YwNWQ5MWExZjQ1MjcwNDVkOTFiN2E1YTQyNWM",
+        "commit": {
+            "author": {
+                "name": "Missan, Jos\u00e9 Rodolfo",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-12-04T12:03:47Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-12-04T12:03:47Z"
+            },
+            "message": "Merge branch 'mouredev:main' into main",
+            "tree": {
+                "sha": "a615f70d58e03c0980b3f14aef668b2cd008c08f",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/a615f70d58e03c0980b3f14aef668b2cd008c08f"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/f5e1ebfc703cf05d91a1f4527045d91b7a5a425c",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpMXijCRC1aQ7uu5UhlAAATjwQAFmMkUxy+N6iU6hhENq1bEtu\nxxRsYf/IRGif3XfdaBKhP6LPm+GBDxHUpg13UeSf/PRtNjsmx/tjLdLZ+svbOYqW\nSD+/DyJ+NqUo5FwWxxeq0y0RZ5XnSkX8r0RT9AWG2+3V4xb1IVGJ7dYvm4b+caHg\nB+aBQ7p4ukx+q4TaHog8QXm2gK5J98Ptj0kC6zprluSNcpOZbHugjlK2AzbDPNR5\nhskm9h75j3sPiU/1UiGnmHGhnxDtltJqgx5eYYr1Vlazqg7uJ5oEKp3B5Le1zihU\n+eySV5+sRPdumNRov6NflGHQXZfPHmaTzGpOelkFkIVjh0St0vcwILmqFGtukSYI\nRPtPhkvHL6NET8RThJzDKqHnjO3p+Wnlxv5fqGp2av3XkV4qdoOAMNqu0Uuyp1xm\n95fUI8nV/1ourDGVO39TKmnDpRXOKmE51dvt+89KSJ0GxqW+KVUpoVue1Cdauy2n\n4UiML4VzJKFLvXnA9HwxPL0jMRuU+7n2j0g8LupcWAwPIbo7FTtGM9pYorJsWc+j\nA/BX44qeVd9aoZzvFoS8KdO7CnccAygPJCL9CiM3wuljhT2Xl16FzjdzPo1q3Iez\nLIBhuFUXSzN5yFOXAk+ZB/8ZHqfsPiktiEtot4MYgdMRkL3NRf17hZmzgzSRxjAz\nP2m6hLDSxly3DxalOyX9\n=N+9v\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree a615f70d58e03c0980b3f14aef668b2cd008c08f\nparent bd86393c56115408975aa19cfe2eb9594b8a541d\nparent d11a59d841cf08bdb4ca8722e34c45519e0cea7c\nauthor Missan, Jos\u00e9 Rodolfo <missanjose18@gmail.com> 1764849827 -0300\ncommitter GitHub <noreply@github.com> 1764849827 -0300\n\nMerge branch 'mouredev:main' into main\n",
+                "verified_at": "2025-12-04T12:08:50Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/f5e1ebfc703cf05d91a1f4527045d91b7a5a425c",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/f5e1ebfc703cf05d91a1f4527045d91b7a5a425c",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/f5e1ebfc703cf05d91a1f4527045d91b7a5a425c/comments",
+        "author": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "bd86393c56115408975aa19cfe2eb9594b8a541d",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/bd86393c56115408975aa19cfe2eb9594b8a541d",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/bd86393c56115408975aa19cfe2eb9594b8a541d"
+            },
+            {
+                "sha": "d11a59d841cf08bdb4ca8722e34c45519e0cea7c",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/d11a59d841cf08bdb4ca8722e34c45519e0cea7c",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/d11a59d841cf08bdb4ca8722e34c45519e0cea7c"
+            }
+        ]
+    },
+    {
+        "sha": "fca3cf95b388d0923e8b60ad7281a7d90e7150f5",
+        "node_id": "C_kwDOIqIdX9oAKGZjYTNjZjk1YjM4OGQwOTIzZThiNjBhZDcyODFhN2Q5MGU3MTUwZjU",
+        "commit": {
+            "author": {
+                "name": "maanghel",
+                "email": "138623553+Maanghel@users.noreply.github.com",
+                "date": "2025-12-03T04:15:26Z"
+            },
+            "committer": {
+                "name": "maanghel",
+                "email": "138623553+Maanghel@users.noreply.github.com",
+                "date": "2025-12-03T04:15:26Z"
+            },
+            "message": "#35 - Python",
+            "tree": {
+                "sha": "ad5c299c3b06ba5ea0b173705d57aacd039ef75c",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/ad5c299c3b06ba5ea0b173705d57aacd039ef75c"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/fca3cf95b388d0923e8b60ad7281a7d90e7150f5",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/fca3cf95b388d0923e8b60ad7281a7d90e7150f5",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/fca3cf95b388d0923e8b60ad7281a7d90e7150f5",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/fca3cf95b388d0923e8b60ad7281a7d90e7150f5/comments",
+        "author": {
+            "login": "Maanghel",
+            "id": 138623553,
+            "node_id": "U_kgDOCEM6QQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/138623553?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maanghel",
+            "html_url": "https://github.com/Maanghel",
+            "followers_url": "https://api.github.com/users/Maanghel/followers",
+            "following_url": "https://api.github.com/users/Maanghel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maanghel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maanghel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maanghel/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maanghel/orgs",
+            "repos_url": "https://api.github.com/users/Maanghel/repos",
+            "events_url": "https://api.github.com/users/Maanghel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maanghel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Maanghel",
+            "id": 138623553,
+            "node_id": "U_kgDOCEM6QQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/138623553?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maanghel",
+            "html_url": "https://github.com/Maanghel",
+            "followers_url": "https://api.github.com/users/Maanghel/followers",
+            "following_url": "https://api.github.com/users/Maanghel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maanghel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maanghel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maanghel/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maanghel/orgs",
+            "repos_url": "https://api.github.com/users/Maanghel/repos",
+            "events_url": "https://api.github.com/users/Maanghel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maanghel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "8dc6fc5030a92e2ccbd757447bba58a89ce9b16b",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/8dc6fc5030a92e2ccbd757447bba58a89ce9b16b",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/8dc6fc5030a92e2ccbd757447bba58a89ce9b16b"
+            }
+        ]
+    },
+    {
+        "sha": "8dc6fc5030a92e2ccbd757447bba58a89ce9b16b",
+        "node_id": "C_kwDOIqIdX9oAKDhkYzZmYzUwMzBhOTJlMmNjYmQ3NTc0NDdiYmE1OGE4OWNlOWIxNmI",
+        "commit": {
+            "author": {
+                "name": "maanghel",
+                "email": "138623553+Maanghel@users.noreply.github.com",
+                "date": "2025-12-03T04:02:22Z"
+            },
+            "committer": {
+                "name": "maanghel",
+                "email": "138623553+Maanghel@users.noreply.github.com",
+                "date": "2025-12-03T04:02:22Z"
+            },
+            "message": "Merge branch 'main' of https://github.com/Maanghel/retos-programacion-2023",
+            "tree": {
+                "sha": "dea874a6614a61815f87e95be041284a717e196e",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/dea874a6614a61815f87e95be041284a717e196e"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/8dc6fc5030a92e2ccbd757447bba58a89ce9b16b",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/8dc6fc5030a92e2ccbd757447bba58a89ce9b16b",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/8dc6fc5030a92e2ccbd757447bba58a89ce9b16b",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/8dc6fc5030a92e2ccbd757447bba58a89ce9b16b/comments",
+        "author": {
+            "login": "Maanghel",
+            "id": 138623553,
+            "node_id": "U_kgDOCEM6QQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/138623553?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maanghel",
+            "html_url": "https://github.com/Maanghel",
+            "followers_url": "https://api.github.com/users/Maanghel/followers",
+            "following_url": "https://api.github.com/users/Maanghel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maanghel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maanghel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maanghel/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maanghel/orgs",
+            "repos_url": "https://api.github.com/users/Maanghel/repos",
+            "events_url": "https://api.github.com/users/Maanghel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maanghel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Maanghel",
+            "id": 138623553,
+            "node_id": "U_kgDOCEM6QQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/138623553?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maanghel",
+            "html_url": "https://github.com/Maanghel",
+            "followers_url": "https://api.github.com/users/Maanghel/followers",
+            "following_url": "https://api.github.com/users/Maanghel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maanghel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maanghel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maanghel/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maanghel/orgs",
+            "repos_url": "https://api.github.com/users/Maanghel/repos",
+            "events_url": "https://api.github.com/users/Maanghel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maanghel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "b9a9ce2ebd3d39a6d157c27c8162fdf3f3f6cc9d",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/b9a9ce2ebd3d39a6d157c27c8162fdf3f3f6cc9d",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/b9a9ce2ebd3d39a6d157c27c8162fdf3f3f6cc9d"
+            },
+            {
+                "sha": "19276578871df32d8308759cf2724c768c490b9c",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/19276578871df32d8308759cf2724c768c490b9c",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/19276578871df32d8308759cf2724c768c490b9c"
+            }
+        ]
+    },
+    {
+        "sha": "b9a9ce2ebd3d39a6d157c27c8162fdf3f3f6cc9d",
+        "node_id": "C_kwDOIqIdX9oAKGI5YTljZTJlYmQzZDM5YTZkMTU3YzI3YzgxNjJmZGYzZjNmNmNjOWQ",
+        "commit": {
+            "author": {
+                "name": "maanghel",
+                "email": "138623553+Maanghel@users.noreply.github.com",
+                "date": "2025-12-03T04:02:17Z"
+            },
+            "committer": {
+                "name": "maanghel",
+                "email": "138623553+Maanghel@users.noreply.github.com",
+                "date": "2025-12-03T04:02:17Z"
+            },
+            "message": "#34 - Python",
+            "tree": {
+                "sha": "6aa3e9ba3262c2bb4a2ad75813546467b75fb615",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/6aa3e9ba3262c2bb4a2ad75813546467b75fb615"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/b9a9ce2ebd3d39a6d157c27c8162fdf3f3f6cc9d",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/b9a9ce2ebd3d39a6d157c27c8162fdf3f3f6cc9d",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/b9a9ce2ebd3d39a6d157c27c8162fdf3f3f6cc9d",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/b9a9ce2ebd3d39a6d157c27c8162fdf3f3f6cc9d/comments",
+        "author": {
+            "login": "Maanghel",
+            "id": 138623553,
+            "node_id": "U_kgDOCEM6QQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/138623553?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maanghel",
+            "html_url": "https://github.com/Maanghel",
+            "followers_url": "https://api.github.com/users/Maanghel/followers",
+            "following_url": "https://api.github.com/users/Maanghel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maanghel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maanghel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maanghel/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maanghel/orgs",
+            "repos_url": "https://api.github.com/users/Maanghel/repos",
+            "events_url": "https://api.github.com/users/Maanghel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maanghel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Maanghel",
+            "id": 138623553,
+            "node_id": "U_kgDOCEM6QQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/138623553?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maanghel",
+            "html_url": "https://github.com/Maanghel",
+            "followers_url": "https://api.github.com/users/Maanghel/followers",
+            "following_url": "https://api.github.com/users/Maanghel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maanghel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maanghel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maanghel/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maanghel/orgs",
+            "repos_url": "https://api.github.com/users/Maanghel/repos",
+            "events_url": "https://api.github.com/users/Maanghel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maanghel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fbc3647edaeabb0a38ed990463c85d8352382602",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/fbc3647edaeabb0a38ed990463c85d8352382602",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/fbc3647edaeabb0a38ed990463c85d8352382602"
+            }
+        ]
+    },
+    {
+        "sha": "d11a59d841cf08bdb4ca8722e34c45519e0cea7c",
+        "node_id": "C_kwDOIqIdX9oAKGQxMWE1OWQ4NDFjZjA4YmRiNGNhODcyMmUzNGM0NTUxOWUwY2VhN2M",
+        "commit": {
+            "author": {
+                "name": "Ra\u00fal Gallego",
+                "email": "75795616+kontroldev@users.noreply.github.com",
+                "date": "2025-12-02T19:42:49Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-12-02T19:42:49Z"
+            },
+            "message": "Merge pull request #6823 from Nick-Martz/patch-2\n\nImplement rock-paper-scissors game in Python",
+            "tree": {
+                "sha": "eb74516f2dff0b797525c12fe54cba05f8c09d95",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/eb74516f2dff0b797525c12fe54cba05f8c09d95"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/d11a59d841cf08bdb4ca8722e34c45519e0cea7c",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpL0E5CRC1aQ7uu5UhlAAAZ2sQAAtiPlpo1Uk/8GBLOktB50Nw\n3IxUdEUJheDM+bJ5mfZvAL4Nqs0zrmGwYcSMWmgnRGDlf38UcD5/VPxg6IOPNc2y\nrAXZplRK1u0gRLI/kn1tTPKGQxvPFnd/GUCgkniJAYKBiccAx2kVRLuTlwbUEZXp\nO6URJE5qx6G9As5Xnve9TBg106UFPH8/FlNG8396ExgFSxeHBZgj9DosdtCdzn0u\nTBPz986TiNemIMoy3aBHzoB/n4ibA1huwf87NbHlFDy/XEkGkEKnvpQ1RLwPlw1x\nCL1zKwb4NfpIYE1zuLfbiLuhRk1lkBhUn8+zg/M8KPLNJN6IEmU/PC7q6l8IKB5v\nwrqo0d8FrGuP59T+D2sBHn9avG96qw3zICIMfoXg+A7IwH6mPZWilvUbR/c50EjI\ngQ4IC6J9DqzWoAvzGY2MwEa9xt4Y8pnVydlyQelZvtO3Xc+dYe5Z0UxruZaajxlM\ndAnHVac/+sdCK+0bNKRSk0hqYriVdYZ5tq+227I4R9yG7LlGFShOMGTalU1Yg1kh\n+gwCFO45iFRzgsIbY1titPdhuVbXyQbd5R9TQONygbi4qKbBRHN7Ygb5eDyo/cdt\nmc/FYI73Vjn9EKVTEreUoG1NQJuOMEl7GULCdYPPdADQCiKX5axHF9w94HwiSY4g\nJVfnfePOPrNCIXj+yUcS\n=9p6F\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree eb74516f2dff0b797525c12fe54cba05f8c09d95\nparent d35c3b36090fddabd6d600702a96030316c97bed\nparent f7d69ec031497bc29ce1ba3370e8dc17952d6489\nauthor Ra\u00fal Gallego <75795616+kontroldev@users.noreply.github.com> 1764704569 +0100\ncommitter GitHub <noreply@github.com> 1764704569 +0100\n\nMerge pull request #6823 from Nick-Martz/patch-2\n\nImplement rock-paper-scissors game in Python",
+                "verified_at": "2025-12-02T19:42:50Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/d11a59d841cf08bdb4ca8722e34c45519e0cea7c",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/d11a59d841cf08bdb4ca8722e34c45519e0cea7c",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/d11a59d841cf08bdb4ca8722e34c45519e0cea7c/comments",
+        "author": {
+            "login": "kontroldev",
+            "id": 75795616,
+            "node_id": "MDQ6VXNlcjc1Nzk1NjE2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75795616?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kontroldev",
+            "html_url": "https://github.com/kontroldev",
+            "followers_url": "https://api.github.com/users/kontroldev/followers",
+            "following_url": "https://api.github.com/users/kontroldev/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kontroldev/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kontroldev/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kontroldev/subscriptions",
+            "organizations_url": "https://api.github.com/users/kontroldev/orgs",
+            "repos_url": "https://api.github.com/users/kontroldev/repos",
+            "events_url": "https://api.github.com/users/kontroldev/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kontroldev/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d35c3b36090fddabd6d600702a96030316c97bed",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/d35c3b36090fddabd6d600702a96030316c97bed",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/d35c3b36090fddabd6d600702a96030316c97bed"
+            },
+            {
+                "sha": "f7d69ec031497bc29ce1ba3370e8dc17952d6489",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/f7d69ec031497bc29ce1ba3370e8dc17952d6489",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/f7d69ec031497bc29ce1ba3370e8dc17952d6489"
+            }
+        ]
+    },
+    {
+        "sha": "f7d69ec031497bc29ce1ba3370e8dc17952d6489",
+        "node_id": "C_kwDOIqIdX9oAKGY3ZDY5ZWMwMzE0OTdiYzI5Y2UxYmEzMzcwZThkYzE3OTUyZDY0ODk",
+        "commit": {
+            "author": {
+                "name": "Ra\u00fal Gallego",
+                "email": "75795616+kontroldev@users.noreply.github.com",
+                "date": "2025-12-02T19:41:25Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-12-02T19:41:25Z"
+            },
+            "message": "Rename Retos/Reto #6 - PIEDRA, PAPEL, TIJERA, LAGARTO, SPOCK [Media]/Nickmartz.py to Retos/Reto #6 - PIEDRA, PAPEL, TIJERA, LAGARTO, SPOCK [Media]/python/ Nick-Martz.py\n\nincluyo el fichero en la carpeta correspondiente del lenguaje y modifico el nombre del usuario.",
+            "tree": {
+                "sha": "14ac041c9cb1a030f9a66bf2214b8f0bed47b292",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/14ac041c9cb1a030f9a66bf2214b8f0bed47b292"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/f7d69ec031497bc29ce1ba3370e8dc17952d6489",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpL0DlCRC1aQ7uu5UhlAAA9g8QAEGqgJDIk90tnSBuXVGddG2m\nu5Y2F26Yvyx9PP58TPK42NahmNoio5iBwOBzalKevmRXRp+1YHhD7btxcBe/SJwq\nlL3B4UEIXJzpNpIiovvHMU6YRcb9EXQqiFMZb3ixNumWzkP8NUZSY1p/wL96JRRS\n9kpWyKMPW0RdBNLcsX/gMOSBuVT7Rcr70ERsY/9Dtif/xm9AUShnYk4pdq2ojZ7z\nqI52FdxDLA88MbFb3ycW7mNcCxOZos9UitfZEeBfcDmtEw239dxukrElN4BHyfM8\nVb2okXrFoFXuqiRpAien7I45NTo0pboeurrlDtZV76mvMGDm9uy39sPFIr+0KfVx\nFAwP/1j/2aWGFHgTCEZUPinBvGFcPawyOCROEeMVo0fDCZFXC1QLdjIvCo+KKuS0\n/cbD4jco4ekhRGmcvJhGiyMvFjZalHcfWPPl4U+Ghes5cSyUvx94EHOJimJ+Bezc\nVN/MwarKSsf50tasEkHSNxTSogoL+tVWTqtaTvzZPmm9GyMfvLE7QyErXc2AL/y3\nKs0QhC17oTglpYl04DyGxdTEMmsvm1ao1UFoKlxnUSLu2I3QLAjHorfMpknWV6Zp\nK0dOImjzS5cFVGrKd53IdwIb6WR4bPfHIuU3HsB81XG777jjy55RvJOkqg+6YYIK\nuETmfZCQ9nECOlxsfFJk\n=3pX5\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 14ac041c9cb1a030f9a66bf2214b8f0bed47b292\nparent 006da15dbe41e235cd9438c4f3aafb334d2f72b4\nauthor Ra\u00fal Gallego <75795616+kontroldev@users.noreply.github.com> 1764704485 +0100\ncommitter GitHub <noreply@github.com> 1764704485 +0100\n\nRename Retos/Reto #6 - PIEDRA, PAPEL, TIJERA, LAGARTO, SPOCK [Media]/Nickmartz.py to Retos/Reto #6 - PIEDRA, PAPEL, TIJERA, LAGARTO, SPOCK [Media]/python/ Nick-Martz.py\n\nincluyo el fichero en la carpeta correspondiente del lenguaje y modifico el nombre del usuario.",
+                "verified_at": "2025-12-02T19:41:26Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/f7d69ec031497bc29ce1ba3370e8dc17952d6489",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/f7d69ec031497bc29ce1ba3370e8dc17952d6489",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/f7d69ec031497bc29ce1ba3370e8dc17952d6489/comments",
+        "author": {
+            "login": "kontroldev",
+            "id": 75795616,
+            "node_id": "MDQ6VXNlcjc1Nzk1NjE2",
+            "avatar_url": "https://avatars.githubusercontent.com/u/75795616?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kontroldev",
+            "html_url": "https://github.com/kontroldev",
+            "followers_url": "https://api.github.com/users/kontroldev/followers",
+            "following_url": "https://api.github.com/users/kontroldev/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kontroldev/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kontroldev/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kontroldev/subscriptions",
+            "organizations_url": "https://api.github.com/users/kontroldev/orgs",
+            "repos_url": "https://api.github.com/users/kontroldev/repos",
+            "events_url": "https://api.github.com/users/kontroldev/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kontroldev/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "006da15dbe41e235cd9438c4f3aafb334d2f72b4",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/006da15dbe41e235cd9438c4f3aafb334d2f72b4",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/006da15dbe41e235cd9438c4f3aafb334d2f72b4"
+            }
+        ]
+    },
+    {
+        "sha": "19276578871df32d8308759cf2724c768c490b9c",
+        "node_id": "C_kwDOIqIdX9oAKDE5Mjc2NTc4ODcxZGYzMmQ4MzA4NzU5Y2YyNzI0Yzc2OGM0OTBiOWM",
+        "commit": {
+            "author": {
+                "name": "Manuel Gamez",
+                "email": "138623553+Maanghel@users.noreply.github.com",
+                "date": "2025-12-02T07:21:20Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-12-02T07:21:20Z"
+            },
+            "message": "Merge branch 'mouredev:main' into main",
+            "tree": {
+                "sha": "976fc2f77f73e8ebf6c27cfcbd7caebf3354ac1d",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/976fc2f77f73e8ebf6c27cfcbd7caebf3354ac1d"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/19276578871df32d8308759cf2724c768c490b9c",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpLpNwCRC1aQ7uu5UhlAAAPH8QALBvkzgkDd9IAQFsAhKdWdMV\n5ncOFJGmovKJwWKdWaiN241cWzjy6oU2HQLGbx3MZLlxmlGMYoidIwEWPt1PLcX+\nJEgLCU8DEzGgFKpJkhr/+axiyLz5BZ96k+sO24kdxiAlwqtEkm3DQL9nF750ezib\nFik+3N2AsylO20TKYKcDGLLY7W9qznICsy8ASougM+DKbXIfHwfRaOBG121DCStQ\ntSXMyHNI2yJXS7Wr69HVLWhXRbUQWnSPY15d+2m3qY3VFZMKRwheDaMAgg+823PQ\n2fLxOAIIpJJEXVcmOuRXmzCJv4GmAClTI60FP3TQMKv45v/BLEu4vyBaSJnX86oM\nlJ+LdgSA5lBqV0Y/ygBO4cXgLWR1rj8dWYTUmdYBFxIy1BLWtNfxnMt6VoPC7SVG\nsj5lmE8AX4iZr0Bgm4tGhZdhEDjVhaxbl1xvLzTyvmOKI2N1fSbqDN5+ZpQlxO95\nfTQo9r3wC7oBrW93xrTnJcPrYmxS/Qvi4y20ZkXnrcKJZShXrkigKm3du5IgfDaE\nhk8prx4yjrdk1Hj1Q0hxiClAN1HGNcO2dvP5UNqCtVyOZIcYNMawuzT5xyINnYVF\nnNStErY/FkLwm8gXuq8emyk850cjvx4vRDPy8Fi/ysh6rhO9rQSkg+0zHLxZWD5V\nqKy1xvqrA3qS1H0qaNjf\n=nQmT\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 976fc2f77f73e8ebf6c27cfcbd7caebf3354ac1d\nparent fbc3647edaeabb0a38ed990463c85d8352382602\nparent d35c3b36090fddabd6d600702a96030316c97bed\nauthor Manuel Gamez <138623553+Maanghel@users.noreply.github.com> 1764660080 -0700\ncommitter GitHub <noreply@github.com> 1764660080 -0700\n\nMerge branch 'mouredev:main' into main\n",
+                "verified_at": "2025-12-02T07:21:28Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/19276578871df32d8308759cf2724c768c490b9c",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/19276578871df32d8308759cf2724c768c490b9c",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/19276578871df32d8308759cf2724c768c490b9c/comments",
+        "author": {
+            "login": "Maanghel",
+            "id": 138623553,
+            "node_id": "U_kgDOCEM6QQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/138623553?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maanghel",
+            "html_url": "https://github.com/Maanghel",
+            "followers_url": "https://api.github.com/users/Maanghel/followers",
+            "following_url": "https://api.github.com/users/Maanghel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maanghel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maanghel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maanghel/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maanghel/orgs",
+            "repos_url": "https://api.github.com/users/Maanghel/repos",
+            "events_url": "https://api.github.com/users/Maanghel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maanghel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "fbc3647edaeabb0a38ed990463c85d8352382602",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/fbc3647edaeabb0a38ed990463c85d8352382602",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/fbc3647edaeabb0a38ed990463c85d8352382602"
+            },
+            {
+                "sha": "d35c3b36090fddabd6d600702a96030316c97bed",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/d35c3b36090fddabd6d600702a96030316c97bed",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/d35c3b36090fddabd6d600702a96030316c97bed"
+            }
+        ]
+    },
+    {
+        "sha": "fbc3647edaeabb0a38ed990463c85d8352382602",
+        "node_id": "C_kwDOIqIdX9oAKGZiYzM2NDdlZGFlYWJiMGEzOGVkOTkwNDYzYzg1ZDgzNTIzODI2MDI",
+        "commit": {
+            "author": {
+                "name": "maanghel",
+                "email": "138623553+Maanghel@users.noreply.github.com",
+                "date": "2025-12-02T07:18:52Z"
+            },
+            "committer": {
+                "name": "maanghel",
+                "email": "138623553+Maanghel@users.noreply.github.com",
+                "date": "2025-12-02T07:18:52Z"
+            },
+            "message": "#33 - Python",
+            "tree": {
+                "sha": "64eab895617e4ce371d3956d39f649547ee23490",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/64eab895617e4ce371d3956d39f649547ee23490"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/fbc3647edaeabb0a38ed990463c85d8352382602",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/fbc3647edaeabb0a38ed990463c85d8352382602",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/fbc3647edaeabb0a38ed990463c85d8352382602",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/fbc3647edaeabb0a38ed990463c85d8352382602/comments",
+        "author": {
+            "login": "Maanghel",
+            "id": 138623553,
+            "node_id": "U_kgDOCEM6QQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/138623553?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maanghel",
+            "html_url": "https://github.com/Maanghel",
+            "followers_url": "https://api.github.com/users/Maanghel/followers",
+            "following_url": "https://api.github.com/users/Maanghel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maanghel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maanghel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maanghel/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maanghel/orgs",
+            "repos_url": "https://api.github.com/users/Maanghel/repos",
+            "events_url": "https://api.github.com/users/Maanghel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maanghel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Maanghel",
+            "id": 138623553,
+            "node_id": "U_kgDOCEM6QQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/138623553?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Maanghel",
+            "html_url": "https://github.com/Maanghel",
+            "followers_url": "https://api.github.com/users/Maanghel/followers",
+            "following_url": "https://api.github.com/users/Maanghel/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Maanghel/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Maanghel/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Maanghel/subscriptions",
+            "organizations_url": "https://api.github.com/users/Maanghel/orgs",
+            "repos_url": "https://api.github.com/users/Maanghel/repos",
+            "events_url": "https://api.github.com/users/Maanghel/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Maanghel/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "4330ba0ed3e60eca6eaf3b90e518aea8369e3c30",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/4330ba0ed3e60eca6eaf3b90e518aea8369e3c30",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/4330ba0ed3e60eca6eaf3b90e518aea8369e3c30"
+            }
+        ]
+    },
+    {
+        "sha": "bd86393c56115408975aa19cfe2eb9594b8a541d",
+        "node_id": "C_kwDOIqIdX9oAKGJkODYzOTNjNTYxMTU0MDg5NzVhYTE5Y2ZlMmViOTU5NGI4YTU0MWQ",
+        "commit": {
+            "author": {
+                "name": "Jos\u00e9 Miss\u00e1n",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-12-02T06:10:43Z"
+            },
+            "committer": {
+                "name": "Jos\u00e9 Miss\u00e1n",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-12-02T06:19:47Z"
+            },
+            "message": "Reto #40 - Python",
+            "tree": {
+                "sha": "c28eae5a34bd8321db054b9e4f8af4b878e7a65b",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/c28eae5a34bd8321db054b9e4f8af4b878e7a65b"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/bd86393c56115408975aa19cfe2eb9594b8a541d",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/bd86393c56115408975aa19cfe2eb9594b8a541d",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/bd86393c56115408975aa19cfe2eb9594b8a541d",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/bd86393c56115408975aa19cfe2eb9594b8a541d/comments",
+        "author": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "d35c3b36090fddabd6d600702a96030316c97bed",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/d35c3b36090fddabd6d600702a96030316c97bed",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/d35c3b36090fddabd6d600702a96030316c97bed"
+            }
+        ]
+    },
+    {
+        "sha": "d35c3b36090fddabd6d600702a96030316c97bed",
+        "node_id": "C_kwDOIqIdX9oAKGQzNWMzYjM2MDkwZmRkYWJkNmQ2MDA3MDJhOTYwMzAzMTZjOTdiZWQ",
+        "commit": {
+            "author": {
+                "name": "Bruce",
+                "email": "88008233+Roswell468@users.noreply.github.com",
+                "date": "2025-11-30T13:38:32Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-11-30T13:38:32Z"
+            },
+            "message": "Merge pull request #6825 from Rodo-Missan/main\n\nReto #47 - Python",
+            "tree": {
+                "sha": "db32158bbae40258eca8d21c1be6f6c1455bd927",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/db32158bbae40258eca8d21c1be6f6c1455bd927"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/d35c3b36090fddabd6d600702a96030316c97bed",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpLEjYCRC1aQ7uu5UhlAAAoA0QAHhis7PwyMhNhY2I1ADPRg03\nCW3b87BJIQMzKsC7SPZb92IZH8yjeLJMDQQQVPRP5uAaJNwqSN3pWYO5b3ayRXz8\nOhThElYYVJmDa2UwVUXdef0hfhCGn22TpXOYmPugLS8+XyM/Pop3cjbyjOC5uQ8i\nBS7Em6u+8dgc9Se8zh47yk1fsoF78AHx0yNKpDo+yhav6MGSwgroRq54ghN0b6GS\nId9H3pjc1KINe7qmwwSF+tFVCEU+K5s7nSeCTpzxAA9RK0GJI3/Dye6vIUkoMEgo\nt2j04r33EKT3ZNR30BoMLHwvH857cO9Nfq2+ikyys9JJHIH6xdMMdrGHS4I/HumS\nM50499BAixzz2/aUjrHsaIqBU73SQnJJr23DopWjebGTvSMhS9+4ZbbaSMOH1GZp\nc8wOA2A5saJuWjpDVWgFP9Py//j52dCy1pAAAn9pBjWXIz8sL3nqL1epOjLcjhRJ\nkNJW3hb9blKNbSmQjcfw4yOzxk1i6WA6jzQfi6ofJSMbwNpM/NPah7y6d8YCXKJh\nm6ucMfC3+gTNG8HbpaJCBNPx408N6xSe7ktQJMMuSHwxRbWfnmmXbUq4IlaWp/xQ\n3sVCpEGcYccHmxMYLPa44lzE+pMWNDaP8eRo1fLAYlIvRXwpGvIdi7PsOaNT1a3L\nHU+DpLqDAna8nVa0lNCj\n=FEE7\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree db32158bbae40258eca8d21c1be6f6c1455bd927\nparent 6f05f45190dfca602515cf1dbbb1fe8303d10895\nparent c39c136592cafe7e5a69e5a42f98a26859e4db7a\nauthor Bruce <88008233+Roswell468@users.noreply.github.com> 1764509912 -0300\ncommitter GitHub <noreply@github.com> 1764509912 -0300\n\nMerge pull request #6825 from Rodo-Missan/main\n\nReto #47 - Python",
+                "verified_at": "2025-11-30T13:38:32Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/d35c3b36090fddabd6d600702a96030316c97bed",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/d35c3b36090fddabd6d600702a96030316c97bed",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/d35c3b36090fddabd6d600702a96030316c97bed/comments",
+        "author": {
+            "login": "Roswell468",
+            "id": 88008233,
+            "node_id": "MDQ6VXNlcjg4MDA4MjMz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88008233?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Roswell468",
+            "html_url": "https://github.com/Roswell468",
+            "followers_url": "https://api.github.com/users/Roswell468/followers",
+            "following_url": "https://api.github.com/users/Roswell468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Roswell468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Roswell468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Roswell468/subscriptions",
+            "organizations_url": "https://api.github.com/users/Roswell468/orgs",
+            "repos_url": "https://api.github.com/users/Roswell468/repos",
+            "events_url": "https://api.github.com/users/Roswell468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Roswell468/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6f05f45190dfca602515cf1dbbb1fe8303d10895",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/6f05f45190dfca602515cf1dbbb1fe8303d10895",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/6f05f45190dfca602515cf1dbbb1fe8303d10895"
+            },
+            {
+                "sha": "c39c136592cafe7e5a69e5a42f98a26859e4db7a",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/c39c136592cafe7e5a69e5a42f98a26859e4db7a",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/c39c136592cafe7e5a69e5a42f98a26859e4db7a"
+            }
+        ]
+    },
+    {
+        "sha": "c39c136592cafe7e5a69e5a42f98a26859e4db7a",
+        "node_id": "C_kwDOIqIdX9oAKGMzOWMxMzY1OTJjYWZlN2U1YTY5ZTVhNDJmOThhMjY4NTllNGRiN2E",
+        "commit": {
+            "author": {
+                "name": "Jos\u00e9 Miss\u00e1n",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-11-29T19:17:18Z"
+            },
+            "committer": {
+                "name": "Jos\u00e9 Miss\u00e1n",
+                "email": "missanjose18@gmail.com",
+                "date": "2025-11-29T19:17:18Z"
+            },
+            "message": "Soluci\u00f3n del Reto #47 en Python\"",
+            "tree": {
+                "sha": "db32158bbae40258eca8d21c1be6f6c1455bd927",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/db32158bbae40258eca8d21c1be6f6c1455bd927"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/c39c136592cafe7e5a69e5a42f98a26859e4db7a",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/c39c136592cafe7e5a69e5a42f98a26859e4db7a",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/c39c136592cafe7e5a69e5a42f98a26859e4db7a",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/c39c136592cafe7e5a69e5a42f98a26859e4db7a/comments",
+        "author": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "rodomissan",
+            "id": 176009241,
+            "node_id": "U_kgDOCn2wGQ",
+            "avatar_url": "https://avatars.githubusercontent.com/u/176009241?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/rodomissan",
+            "html_url": "https://github.com/rodomissan",
+            "followers_url": "https://api.github.com/users/rodomissan/followers",
+            "following_url": "https://api.github.com/users/rodomissan/following{/other_user}",
+            "gists_url": "https://api.github.com/users/rodomissan/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/rodomissan/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/rodomissan/subscriptions",
+            "organizations_url": "https://api.github.com/users/rodomissan/orgs",
+            "repos_url": "https://api.github.com/users/rodomissan/repos",
+            "events_url": "https://api.github.com/users/rodomissan/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/rodomissan/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6f05f45190dfca602515cf1dbbb1fe8303d10895",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/6f05f45190dfca602515cf1dbbb1fe8303d10895",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/6f05f45190dfca602515cf1dbbb1fe8303d10895"
+            }
+        ]
+    },
+    {
+        "sha": "006da15dbe41e235cd9438c4f3aafb334d2f72b4",
+        "node_id": "C_kwDOIqIdX9oAKDAwNmRhMTVkYmU0MWUyMzVjZDk0MzhjNGYzYWFmYjMzNGQyZjcyYjQ",
+        "commit": {
+            "author": {
+                "name": "Nick-Martz",
+                "email": "nicolasxxmartinez16@gmail.com",
+                "date": "2025-11-17T15:23:36Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-11-17T15:23:36Z"
+            },
+            "message": "Implement rock-paper-scissors game in Python\n\nReto 6 hecho en py",
+            "tree": {
+                "sha": "fac042452d7171ce5b17d989d076fa2523d338d4",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/fac042452d7171ce5b17d989d076fa2523d338d4"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/006da15dbe41e235cd9438c4f3aafb334d2f72b4",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpGz34CRC1aQ7uu5UhlAAAO9QQAHy0cUw/rULMAn7w5nmsVZjZ\nuXFv9m40+nTMIGdI7uToI1cNmH5AauzHq5yzHcbZ3MwzONu5POsb9quMBdU39mKn\n0kRmrnlgqD4EA/XKa7PSwraz/WUFKd5fYo6zd3jdwJrU2BZDVuJn6LdtX4d3cHKY\nCEspFnZwFNCq3SBfSx8CKuDziW7HoLvxJ9gj8uC/rHwBd8CjNFmPyQO2XtAYVPSx\nlwv+kcBy5FrcQ3aEcDuR/jfZgkJEjVDpCtPKrVUQW3fT9HaMSc90GUm1lVmY/9c8\nOko71wnRj1PoUNSXVMmpBZGDxk4Ml5/UCX62w1U9yNu37Q9C47WMGZ9Yem1JaRI5\n2foJJSrPqDAEi2h0mgBup/kb1o+x7Ltx0u+S69MaL9Ow8Hv6WeEMe5FwfOTTQO92\nNR9f1kTrjt71/V46fZIMyv/rIt83VH73N40GzDN74sLQL0SqK11Mf2drDJsqA7o8\nyxL2uO4DdWJKrHXn00ZMdziqZZq9LHdmnvAObgYxSV3Hv48i17xzr2hDP6mmDt7z\nZKiOz8pXXCPUGVH+C/XDG7ahMolNypZZ6zJvnPE27lVZ4d6J4IaWhyxiLVdCMPxC\ndIAq5zKe7wN6YO+NiUi/HYZmX91Q2inuKkOM+HXDtvnaDZ7SiOjph8CA9AkPdtcI\nSPkVuh0HSCJ7eNH6McCb\n=8aYE\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree fac042452d7171ce5b17d989d076fa2523d338d4\nparent 6f05f45190dfca602515cf1dbbb1fe8303d10895\nauthor Nick-Martz <nicolasxxmartinez16@gmail.com> 1763393016 -0500\ncommitter GitHub <noreply@github.com> 1763393016 -0500\n\nImplement rock-paper-scissors game in Python\n\nReto 6 hecho en py",
+                "verified_at": "2025-11-17T15:23:37Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/006da15dbe41e235cd9438c4f3aafb334d2f72b4",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/006da15dbe41e235cd9438c4f3aafb334d2f72b4",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/006da15dbe41e235cd9438c4f3aafb334d2f72b4/comments",
+        "author": {
+            "login": "Nick-Martz",
+            "id": 195929464,
+            "node_id": "U_kgDOC62leA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/195929464?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Nick-Martz",
+            "html_url": "https://github.com/Nick-Martz",
+            "followers_url": "https://api.github.com/users/Nick-Martz/followers",
+            "following_url": "https://api.github.com/users/Nick-Martz/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Nick-Martz/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Nick-Martz/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Nick-Martz/subscriptions",
+            "organizations_url": "https://api.github.com/users/Nick-Martz/orgs",
+            "repos_url": "https://api.github.com/users/Nick-Martz/repos",
+            "events_url": "https://api.github.com/users/Nick-Martz/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Nick-Martz/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "6f05f45190dfca602515cf1dbbb1fe8303d10895",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/6f05f45190dfca602515cf1dbbb1fe8303d10895",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/6f05f45190dfca602515cf1dbbb1fe8303d10895"
+            }
+        ]
+    },
+    {
+        "sha": "6f05f45190dfca602515cf1dbbb1fe8303d10895",
+        "node_id": "C_kwDOIqIdX9oAKDZmMDVmNDUxOTBkZmNhNjAyNTE1Y2YxZGJiYjFmZTgzMDNkMTA4OTU",
+        "commit": {
+            "author": {
+                "name": "Bruce",
+                "email": "88008233+Roswell468@users.noreply.github.com",
+                "date": "2025-11-11T12:07:11Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-11-11T12:07:11Z"
+            },
+            "message": "Merge pull request #6822 from Auditore2022/main\n\n Reto #1 - Python",
+            "tree": {
+                "sha": "14546dcdb1f822a1823fb7deb5e6b5feb8c50d17",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/14546dcdb1f822a1823fb7deb5e6b5feb8c50d17"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/6f05f45190dfca602515cf1dbbb1fe8303d10895",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpEybvCRC1aQ7uu5UhlAAAhIwQAHY807JPzNQ9t9Q2DSN3bihS\n+TKrEKuXIHvB+KYayaGJuL1r/s1g2OiFgdkbsvqNnGDZfjhhzuyYuQ1k+M2MMap0\nwGfbkV+ANuUM+46Pv60KLEbhPfKqTs+rl/fShCvMO5PJPuVykn77F3897KPJwhPh\n+CV+hls2hYzFtyrUqhZPV9RaiGB7QFo2b+WMiu2GIK75Ci7x6gylsW1QmSro6Mni\n57rHGXPsQEQFRcQoU2Hg6yopxesyUXrpWer0Tyu/sh8IbtxKW6yJibnRuwznR+dn\nq8HUFxuYa5OKZUI7QmAzmw+139xlsokaZHFl6KJcK3HypOtGt1gHQ88pc7gvxBUo\naOlcs2uVzPRuRV1idIpZZKqSvarw2MUzVorWOe2onSuxzNY1YofEatYfHtqlMvsF\nJy5heB1ysylusJe/04ypZWywc6gZlS5JK5IV3xvmnfIrp9c3ouBFdrK4xOv/uiOw\nM5hS8B5YvbvSKQo+HNqiFlCCI2IgnhpQnJkaHbuiZOLd41kBn5n9ceiUl4ShKX1c\nFFJVfvdXlJ/aVtO5aQWBz24QtktnTyt5hdZc6SfE++mWGsuphV572FlGZAzREF6K\n8NNbrQzIRFXEvblCtVAJR0aY3VMtvT1sA0O25KYi2pZQwJxzccDwvGwVhLKGDepX\n/AEusVPQI28hsUb66eiy\n=fuHH\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree 14546dcdb1f822a1823fb7deb5e6b5feb8c50d17\nparent e51b031ea8b9b2119c4b44d8f4e76db3fc4989fa\nparent 7e16357a9b34c06e4df03da9bf35daab56084384\nauthor Bruce <88008233+Roswell468@users.noreply.github.com> 1762862831 -0300\ncommitter GitHub <noreply@github.com> 1762862831 -0300\n\nMerge pull request #6822 from Auditore2022/main\n\n Reto #1 - Python ",
+                "verified_at": "2025-11-11T12:07:12Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/6f05f45190dfca602515cf1dbbb1fe8303d10895",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/6f05f45190dfca602515cf1dbbb1fe8303d10895",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/6f05f45190dfca602515cf1dbbb1fe8303d10895/comments",
+        "author": {
+            "login": "Roswell468",
+            "id": 88008233,
+            "node_id": "MDQ6VXNlcjg4MDA4MjMz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88008233?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Roswell468",
+            "html_url": "https://github.com/Roswell468",
+            "followers_url": "https://api.github.com/users/Roswell468/followers",
+            "following_url": "https://api.github.com/users/Roswell468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Roswell468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Roswell468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Roswell468/subscriptions",
+            "organizations_url": "https://api.github.com/users/Roswell468/orgs",
+            "repos_url": "https://api.github.com/users/Roswell468/repos",
+            "events_url": "https://api.github.com/users/Roswell468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Roswell468/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e51b031ea8b9b2119c4b44d8f4e76db3fc4989fa",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/e51b031ea8b9b2119c4b44d8f4e76db3fc4989fa",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/e51b031ea8b9b2119c4b44d8f4e76db3fc4989fa"
+            },
+            {
+                "sha": "7e16357a9b34c06e4df03da9bf35daab56084384",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/7e16357a9b34c06e4df03da9bf35daab56084384",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/7e16357a9b34c06e4df03da9bf35daab56084384"
+            }
+        ]
+    },
+    {
+        "sha": "e51b031ea8b9b2119c4b44d8f4e76db3fc4989fa",
+        "node_id": "C_kwDOIqIdX9oAKGU1MWIwMzFlYThiOWIyMTE5YzRiNDRkOGY0ZTc2ZGIzZmM0OTg5ZmE",
+        "commit": {
+            "author": {
+                "name": "Bruce",
+                "email": "88008233+Roswell468@users.noreply.github.com",
+                "date": "2025-11-11T12:06:46Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-11-11T12:06:46Z"
+            },
+            "message": "Merge pull request #6820 from Maanghel/main\n\nReto #32 - Python",
+            "tree": {
+                "sha": "a0fa9333cf3d5fd58bf461781c7e3be2caa59aed",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/a0fa9333cf3d5fd58bf461781c7e3be2caa59aed"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/e51b031ea8b9b2119c4b44d8f4e76db3fc4989fa",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpEybWCRC1aQ7uu5UhlAAADmEQAI9Q57U+c+FqNWPJoBMinJc+\nsG1EHAKHPHnpCzhituy8UiXX5F+Bqe2Uycv9x7MsRuLBypb02oQ2Hkxt9eiqQAjz\nDro+lzSWmNSPzkFBFIaYOPzpxDBEHt6PfvwFhit9eGHdZafpY38/3WZKR9vUaXsM\nqTf362ZUAUpmSGN1dBRu1LkaBSwy2xsxKh7xckC5xXqlmY+ggqM6yX7QFnp7dGr2\nb6HWk0WSq+lf6O2UTBHVigg6nzIN77dbDwAgLDX6RA4K9bkhLNynADrl81zT6WQL\nNcN9i2gnymiQpPo54VE9/5tEiONjEnr6QEmezXqh+sA+zH5NmehmOY7k78ExK1FJ\n+OeL2L6JFiWkwogZRvA8h8ofXyQMDLlYCZodiSbhzcIFadJWttmsgsIg7i2Y5QnH\nMLBsHKWLfp7IrirxX6sBM8V6vOdvtVu4MP7F0DUjYpp4n8xIZOgoxEHpUgFwtSM/\nmqTJYqLjEhx2Z+Vz88p6LPqrPshl7paYX/efM+8Fh75L/beUv60dcRsVCXZltt8b\nj+y92WvwOeedkYHZbVdXUPpSCL+oQoVr77CQt6pnQcC/ME6XuImUKFtG4ynNZJjR\npSHD2kX++hq1v6wR861qKB+WoRQ4qBdfc2oelh7MXfa86OJumr2/M3lPZECcVycj\nC5sAs4Gi0MoHFnR+g/1W\n=CxdZ\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree a0fa9333cf3d5fd58bf461781c7e3be2caa59aed\nparent 84a2cfa9f0c9d6b3aa921efc69405e87b186480d\nparent 4330ba0ed3e60eca6eaf3b90e518aea8369e3c30\nauthor Bruce <88008233+Roswell468@users.noreply.github.com> 1762862806 -0300\ncommitter GitHub <noreply@github.com> 1762862806 -0300\n\nMerge pull request #6820 from Maanghel/main\n\nReto #32 - Python",
+                "verified_at": "2025-11-11T12:06:46Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/e51b031ea8b9b2119c4b44d8f4e76db3fc4989fa",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/e51b031ea8b9b2119c4b44d8f4e76db3fc4989fa",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/e51b031ea8b9b2119c4b44d8f4e76db3fc4989fa/comments",
+        "author": {
+            "login": "Roswell468",
+            "id": 88008233,
+            "node_id": "MDQ6VXNlcjg4MDA4MjMz",
+            "avatar_url": "https://avatars.githubusercontent.com/u/88008233?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Roswell468",
+            "html_url": "https://github.com/Roswell468",
+            "followers_url": "https://api.github.com/users/Roswell468/followers",
+            "following_url": "https://api.github.com/users/Roswell468/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Roswell468/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Roswell468/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Roswell468/subscriptions",
+            "organizations_url": "https://api.github.com/users/Roswell468/orgs",
+            "repos_url": "https://api.github.com/users/Roswell468/repos",
+            "events_url": "https://api.github.com/users/Roswell468/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Roswell468/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "84a2cfa9f0c9d6b3aa921efc69405e87b186480d",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/84a2cfa9f0c9d6b3aa921efc69405e87b186480d",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/84a2cfa9f0c9d6b3aa921efc69405e87b186480d"
+            },
+            {
+                "sha": "4330ba0ed3e60eca6eaf3b90e518aea8369e3c30",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/4330ba0ed3e60eca6eaf3b90e518aea8369e3c30",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/4330ba0ed3e60eca6eaf3b90e518aea8369e3c30"
+            }
+        ]
+    },
+    {
+        "sha": "7e16357a9b34c06e4df03da9bf35daab56084384",
+        "node_id": "C_kwDOIqIdX9oAKDdlMTYzNTdhOWIzNGMwNmU0ZGYwM2RhOWJmMzVkYWFiNTYwODQzODQ",
+        "commit": {
+            "author": {
+                "name": "Auditore2022",
+                "email": "rodrigo.rresendiz@gmail.com",
+                "date": "2025-11-11T00:40:35Z"
+            },
+            "committer": {
+                "name": "Auditore2022",
+                "email": "rodrigo.rresendiz@gmail.com",
+                "date": "2025-11-11T00:40:35Z"
+            },
+            "message": "Merge branch 'main' of https://github.com/Auditore2022/retos-programacion-2023",
+            "tree": {
+                "sha": "0fed40dedb8def5d5d28086f69af6b0d0a3d603d",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/0fed40dedb8def5d5d28086f69af6b0d0a3d603d"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/7e16357a9b34c06e4df03da9bf35daab56084384",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/7e16357a9b34c06e4df03da9bf35daab56084384",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/7e16357a9b34c06e4df03da9bf35daab56084384",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/7e16357a9b34c06e4df03da9bf35daab56084384/comments",
+        "author": {
+            "login": "Auditore2022",
+            "id": 230215040,
+            "node_id": "U_kgDODbjNgA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/230215040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Auditore2022",
+            "html_url": "https://github.com/Auditore2022",
+            "followers_url": "https://api.github.com/users/Auditore2022/followers",
+            "following_url": "https://api.github.com/users/Auditore2022/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Auditore2022/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Auditore2022/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Auditore2022/subscriptions",
+            "organizations_url": "https://api.github.com/users/Auditore2022/orgs",
+            "repos_url": "https://api.github.com/users/Auditore2022/repos",
+            "events_url": "https://api.github.com/users/Auditore2022/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Auditore2022/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Auditore2022",
+            "id": 230215040,
+            "node_id": "U_kgDODbjNgA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/230215040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Auditore2022",
+            "html_url": "https://github.com/Auditore2022",
+            "followers_url": "https://api.github.com/users/Auditore2022/followers",
+            "following_url": "https://api.github.com/users/Auditore2022/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Auditore2022/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Auditore2022/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Auditore2022/subscriptions",
+            "organizations_url": "https://api.github.com/users/Auditore2022/orgs",
+            "repos_url": "https://api.github.com/users/Auditore2022/repos",
+            "events_url": "https://api.github.com/users/Auditore2022/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Auditore2022/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "e5d912295854c690b7d607aac833e6b2651a1431",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/e5d912295854c690b7d607aac833e6b2651a1431",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/e5d912295854c690b7d607aac833e6b2651a1431"
+            },
+            {
+                "sha": "92c56f31f0b355ccca55b3020a437f2039ff4ae0",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/92c56f31f0b355ccca55b3020a437f2039ff4ae0",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/92c56f31f0b355ccca55b3020a437f2039ff4ae0"
+            }
+        ]
+    },
+    {
+        "sha": "e5d912295854c690b7d607aac833e6b2651a1431",
+        "node_id": "C_kwDOIqIdX9oAKGU1ZDkxMjI5NTg1NGM2OTBiN2Q2MDdhYWM4MzNlNmIyNjUxYTE0MzE",
+        "commit": {
+            "author": {
+                "name": "Auditore2022",
+                "email": "rodrigo.rresendiz@gmail.com",
+                "date": "2025-11-11T00:39:22Z"
+            },
+            "committer": {
+                "name": "Auditore2022",
+                "email": "rodrigo.rresendiz@gmail.com",
+                "date": "2025-11-11T00:39:22Z"
+            },
+            "message": "Reto #2 - Python",
+            "tree": {
+                "sha": "c10a370a150dfe45d3150baf6419ccbd7820ecd1",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/c10a370a150dfe45d3150baf6419ccbd7820ecd1"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/e5d912295854c690b7d607aac833e6b2651a1431",
+            "comment_count": 0,
+            "verification": {
+                "verified": false,
+                "reason": "unsigned",
+                "signature": null,
+                "payload": null,
+                "verified_at": null
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/e5d912295854c690b7d607aac833e6b2651a1431",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/e5d912295854c690b7d607aac833e6b2651a1431",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/e5d912295854c690b7d607aac833e6b2651a1431/comments",
+        "author": {
+            "login": "Auditore2022",
+            "id": 230215040,
+            "node_id": "U_kgDODbjNgA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/230215040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Auditore2022",
+            "html_url": "https://github.com/Auditore2022",
+            "followers_url": "https://api.github.com/users/Auditore2022/followers",
+            "following_url": "https://api.github.com/users/Auditore2022/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Auditore2022/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Auditore2022/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Auditore2022/subscriptions",
+            "organizations_url": "https://api.github.com/users/Auditore2022/orgs",
+            "repos_url": "https://api.github.com/users/Auditore2022/repos",
+            "events_url": "https://api.github.com/users/Auditore2022/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Auditore2022/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "Auditore2022",
+            "id": 230215040,
+            "node_id": "U_kgDODbjNgA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/230215040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Auditore2022",
+            "html_url": "https://github.com/Auditore2022",
+            "followers_url": "https://api.github.com/users/Auditore2022/followers",
+            "following_url": "https://api.github.com/users/Auditore2022/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Auditore2022/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Auditore2022/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Auditore2022/subscriptions",
+            "organizations_url": "https://api.github.com/users/Auditore2022/orgs",
+            "repos_url": "https://api.github.com/users/Auditore2022/repos",
+            "events_url": "https://api.github.com/users/Auditore2022/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Auditore2022/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "861dcf3b2267e48c0386b96ea0da503e04427f48",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/861dcf3b2267e48c0386b96ea0da503e04427f48",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/861dcf3b2267e48c0386b96ea0da503e04427f48"
+            }
+        ]
+    },
+    {
+        "sha": "92c56f31f0b355ccca55b3020a437f2039ff4ae0",
+        "node_id": "C_kwDOIqIdX9oAKDkyYzU2ZjMxZjBiMzU1Y2NjYTU1YjMwMjBhNDM3ZjIwMzlmZjRhZTA",
+        "commit": {
+            "author": {
+                "name": "Rodrigo Romero Res\u00e9ndiz",
+                "email": "rodrigo.rresendiz@gmail.com",
+                "date": "2025-11-10T20:13:04Z"
+            },
+            "committer": {
+                "name": "GitHub",
+                "email": "noreply@github.com",
+                "date": "2025-11-10T20:13:04Z"
+            },
+            "message": "Reto #1 - Python\n\nArreglado un bug que cambiaba \u00d1 y puntuaciones a espacios (\" \")",
+            "tree": {
+                "sha": "d0bfe0942530738bf11049aa290399b87c7ce8be",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/trees/d0bfe0942530738bf11049aa290399b87c7ce8be"
+            },
+            "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/git/commits/92c56f31f0b355ccca55b3020a437f2039ff4ae0",
+            "comment_count": 0,
+            "verification": {
+                "verified": true,
+                "reason": "valid",
+                "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpEkdQCRC1aQ7uu5UhlAAA1HEQAHWEy36oiYzjbn8v777kKXMJ\nAPv/GDhqNUgz3NAfSBu+wLLN2nWwXsiG5YD2dttFtG0S94inkA4Uy/1+6hWRztZE\ntUpZIs0nP0uIubXoSjuDtjrw4Qm9Sodz77TWov2ZXAfZ0yEiglwv5jkVhk3c/ozi\n89rAgErk7lKqM13GzUZU7aqIsJkuLNG7HBxVOgslcJZVMbP0x/DZgOqX+dD70zVW\nbm0QsIfpsFVQIFIrJmR5AgC572BhCd5Z1Bh2mQGEv/QqBQNuXfEery8cwpj1/1K2\nhn2wgH+IpDINv37Ew7Ob47NBRwxCp5dy+NRMlxmG04FkT1neLOcX8tjW6Fbi3ky8\ndWrmnTrTzTCU8aOYOnNQGcRgkTo8IImb70246madz+NqjsY/bvXQhbeLAuUyklnq\nbaRcC7WKYhyNuhTg0koR3sL6bOszCbh6HP1FKJOo1Gm22nOQumQIsRng4qwVSaul\nkS0RhoyUWFPbhoNnefb8cH8/lmx6GbFV66E+4rhvK15VkMekT1NH+Vjqe/hnlhgO\nUHGohwSqyGP8Va6ZrMp+eIKcs+A3ZoiNY42CB2Kl7otW6Y8xW9S+9svR4fHQqzrY\n6c8gaETDnVIN95qG4f1MZkZWqYYXcRU2S0htREXMCCnPvYJmjFz4Tyd2RqahaZNJ\nPgTgbDhK+CANocTibsUn\n=7Jq+\n-----END PGP SIGNATURE-----\n",
+                "payload": "tree d0bfe0942530738bf11049aa290399b87c7ce8be\nparent 0ea7ed0f7c69043f4ca86a8636f2f1d844c5d35f\nauthor Rodrigo Romero Res\u00e9ndiz <rodrigo.rresendiz@gmail.com> 1762805584 -0600\ncommitter GitHub <noreply@github.com> 1762805584 -0600\n\nReto #1 - Python\n\nArreglado un bug que cambiaba \u00d1 y puntuaciones a espacios (\" \")",
+                "verified_at": "2025-11-10T20:13:05Z"
+            }
+        },
+        "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/92c56f31f0b355ccca55b3020a437f2039ff4ae0",
+        "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/92c56f31f0b355ccca55b3020a437f2039ff4ae0",
+        "comments_url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/92c56f31f0b355ccca55b3020a437f2039ff4ae0/comments",
+        "author": {
+            "login": "Auditore2022",
+            "id": 230215040,
+            "node_id": "U_kgDODbjNgA",
+            "avatar_url": "https://avatars.githubusercontent.com/u/230215040?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Auditore2022",
+            "html_url": "https://github.com/Auditore2022",
+            "followers_url": "https://api.github.com/users/Auditore2022/followers",
+            "following_url": "https://api.github.com/users/Auditore2022/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Auditore2022/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Auditore2022/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Auditore2022/subscriptions",
+            "organizations_url": "https://api.github.com/users/Auditore2022/orgs",
+            "repos_url": "https://api.github.com/users/Auditore2022/repos",
+            "events_url": "https://api.github.com/users/Auditore2022/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Auditore2022/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "committer": {
+            "login": "web-flow",
+            "id": 19864447,
+            "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+            "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/web-flow",
+            "html_url": "https://github.com/web-flow",
+            "followers_url": "https://api.github.com/users/web-flow/followers",
+            "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+            "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+            "organizations_url": "https://api.github.com/users/web-flow/orgs",
+            "repos_url": "https://api.github.com/users/web-flow/repos",
+            "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/web-flow/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+        },
+        "parents": [
+            {
+                "sha": "0ea7ed0f7c69043f4ca86a8636f2f1d844c5d35f",
+                "url": "https://api.github.com/repos/mouredev/retos-programacion-2023/commits/0ea7ed0f7c69043f4ca86a8636f2f1d844c5d35f",
+                "html_url": "https://github.com/mouredev/retos-programacion-2023/commit/0ea7ed0f7c69043f4ca86a8636f2f1d844c5d35f"
+            }
+        ]
+    }
+]
