@@ -45,3 +45,31 @@ python scriptRuben.py "Numero de reto"
 ## Nota
 
 El repositorio incluye tanto ejercicios clásicos como material de aprendizaje basado en recursos públicos y plataformas de retos de programación.
+
+## Nueva estructura para revision con AI:
+
+```
+LOGICAPROGRAMACION/
+
+Ejercicios_Logica/
+Microcontroller_Embedded_C/
+Poo/
+ROAD-MAP/
+
+reto_cli/
+│
+├── cli.py
+│
+├── core/
+│   ├── create.py
+│   ├── reporter.py
+│
+├── repository/
+│   └── challenge_repository.py
+│
+├── data/
+│   └── Retos_programacion.json
+│
+└── README.md
+
+```

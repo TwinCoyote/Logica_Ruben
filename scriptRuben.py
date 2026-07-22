@@ -45,9 +45,9 @@ def scrapper_reto() -> str:
 
         banco_de_retos[Numero] = {
 
-            "nombre": limpio,
-            "dificultad": dificultad,
-            "descripcion": descripcion_comentada.strip("/* \n")
+            "name": limpio,
+            "dificulty": dificultad,
+            "description": descripcion_comentada.strip("/* \n")
 
         }
 
@@ -65,9 +65,9 @@ def buscar_reto(numero: int) -> str:
         numero = str(numero)
         with open("Retos_programacion.json", "r", encoding="utf-8") as retos:
             lineas = json.load(retos)
-            nombre = lineas[numero]["nombre"]
-            descripcion = lineas[numero]["descripcion"]
-            dificultad = lineas[numero]["dificultad"]
+            nombre = lineas[numero]["name"]
+            descripcion = lineas[numero]["description"]
+            dificultad = lineas[numero]["dificulty"]
             numero = int(numero)
             nombre_archivo = limpiar_nombre_archivo(f"{numero}_{nombre}.py")
             ruta_completa = os.path.join(carpeta_destino, nombre_archivo)
