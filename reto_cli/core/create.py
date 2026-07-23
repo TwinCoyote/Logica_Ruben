@@ -1,5 +1,6 @@
 
 
+from repository.challenge_repository import find_challenge
 import os
 import json
 import sys
@@ -10,7 +11,6 @@ ROOT_DIR = os.path.abspath(os.path.join(
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 
-from repository.challenge_repository import find_challenge
 
 def clean_file_name(nombre: str) -> str:
     """Elimina caracteres inválidos para nombres de archivo en Windows."""
@@ -50,5 +50,4 @@ def create_challenge_file(number: int) -> str:
     return "success", "File created successfully", path
 
 
-
-print(create_challenge_file(99))
+# print(create_challenge_file(99))

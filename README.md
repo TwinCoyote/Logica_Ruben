@@ -62,10 +62,19 @@ reto_cli/
 │
 ├── core/
 │   ├── create.py
-│   ├── reporter.py
+│   ├── review.py
+│   ├── extract_solution.py
+│   ├── build_prompt.py
+│   ├── ai_client.py
+│   ├── parse_response.py
+│   ├── save_stats.py
+│   └── reporter.py
 │
 ├── repository/
 │   └── challenge_repository.py
+│
+├── config/
+│   └── constants.py
 │
 ├── data/
 │   └── Retos_programacion.json
