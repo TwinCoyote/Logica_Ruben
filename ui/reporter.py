@@ -23,5 +23,5 @@ def show_error(x: tuple[str, int]) -> None:
 
 def show_info(msg: str) -> None:
     '''Print a custom message like info'''
-    print(f"ℹ {msg}...")
+    print(f"{msg}...")
     return None
