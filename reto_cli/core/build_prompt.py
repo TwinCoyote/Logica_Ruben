@@ -57,7 +57,7 @@ def build_prompt(code: str) -> str:
     Do not invent bugs if none exist.
     Do not invent strengths if none exist.
     Be objective.
-    
+
     The JSON must have EXACTLY the following structure:
 
     {json_structure}
@@ -75,4 +75,4 @@ def build_prompt(code: str) -> str:
     return prompt
 
 
-print(build_prompt("xdxdxdxdxd"))
+
