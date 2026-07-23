@@ -18,7 +18,4 @@ def review_code(prompt: str) -> str:
     interaction = client.interactions.create(
         model="gemini-3.5-flash", input=prompt
     )
-    print(interaction.output_text)
-
-
-print(review_code("hola"))
+    return interaction.output_text
