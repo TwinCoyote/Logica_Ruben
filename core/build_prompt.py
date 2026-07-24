@@ -1,4 +1,4 @@
-
+# pylint: disable = E0401,C0403,W0611,C0413,C0412,C0114,W0511,E0402
 
 def build_prompt(code: str) -> str:
     '''# Generate a prompt using the code received
