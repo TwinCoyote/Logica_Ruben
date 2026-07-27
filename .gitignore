@@ -1,0 +1,33 @@
+# Environment variables
+.env
+.env.local
+.env.*
+!.env.demo
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Project generated files
+Ejercicios_Logica/
+*.log
