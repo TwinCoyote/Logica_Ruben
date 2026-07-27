@@ -3,7 +3,7 @@ name: AppCli - Test
 on:
   push:
     branches:
-    - 'main'
+      - "main"
 
 jobs:
   test:
@@ -16,11 +16,14 @@ jobs:
       - name: Install python
         uses: actions/setup-python@v5
         with:
-            python-version: "3.13"
+          python-version: "3.13"
 
       - name: Install Dependecies
         run: pip install -r requirements.txt
 
+      - name: Install App
+        run: pip install -e .
+
       - name: Create challenge file
         shell: bash
-        run: python cli.py create 27
+        run: reto create 27
