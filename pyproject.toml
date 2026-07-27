@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retos-cli"
+version = "0.1.0"
+description = "CLI tool for automating programming challenges and AI-powered reviews."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-genai",
+    "python-dotenv",
+]
+
+[project.scripts]
+reto = "retos_cli.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["retos_cli*"]

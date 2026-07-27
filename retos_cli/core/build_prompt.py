@@ -1,13 +1,10 @@
-# pylint: disable = E0401,C0403,W0611,C0413,C0412,C0114,W0511,E0402
-
 def build_prompt(code: str) -> str:
-    '''# Generate a prompt using the code received
+    '''Generate a prompt using the code received
 
     Args:
-        code:
-            code received from the program
+        code: Code solution to review
     Returns:
-        the complete prompt
+        The complete prompt string
     '''
 
     json_structure = """
@@ -73,6 +70,3 @@ def build_prompt(code: str) -> str:
     """
 
     return prompt
-
-
-
