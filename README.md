@@ -5,9 +5,9 @@ A command-line tool that automates programming challenge creation and provides A
 ## Features
 
 - Generate Python files for programming challenges from a numbered catalog
-- Create exercise templates automatically in a dedicated folder
+- Create exercise templates automatically in a dedicated folder (`Ejercicios_Logica/`)
 - Review solutions with AI-powered feedback using Google Gemini
-- Keep challenge data centralized in JSON format
+- Centralized challenge catalog in JSON format
 
 ## Installation
 
@@ -15,25 +15,26 @@ A command-line tool that automates programming challenge creation and provides A
 
    ```bash
    git clone <repository-url>
-   cd LogicaProgramacion
+   cd Retos-CLI
    ```
 
 2. Create and activate a virtual environment:
 
    ```bash
    python -m venv .venv
-   .venv\Scripts\activate
+   source .venv/bin/activate  # On Linux/macOS
+   # .venv\Scripts\activate   # On Windows
    ```
 
-3. Install the required dependencies:
+3. Install the package in editable mode with dependencies:
 
    ```bash
-   pip install python-dotenv google-genai
+   pip install -e .
    ```
 
-4. Set your API key in your environment:
+4. Set your API key in your environment or `.env` file:
    ```bash
-   set API_KEY=your_api_key_here
+   export API_KEY="your_api_key_here"
    ```
 
 ## Usage
@@ -50,52 +51,66 @@ Review a solution for a specific challenge:
 reto review 27
 ```
 
-If you are running it directly from the source folder, you can also use:
+Alternatively, you can run the module directly with Python:
 
 ```bash
-python cli.py create 27
-python cli.py review 27
+python -m retos_cli.cli create 27
+python -m retos_cli.cli review 27
 ```
 
 ## Architecture
 
-The project is organized into a small modular structure:
-
-- `core/`: contains the main logic for creating challenge files and reviewing solutions
-- `repository/`: handles access to challenge data and file lookup
-- `ui/`: manages console output and reporting
-- `data/`: stores the challenge catalog in JSON format
-- `config/`: contains configuration-related files
+The project follows a modular Python package architecture:
 
 ```
-Retos-CLI
+Retos-CLI/
 │
-├── core/
-├── repository/
-├── ui/
+├── retos_cli/
+│   ├── __init__.py
+│   ├── cli.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── create.py
+│   │   ├── review.py
+│   │   ├── ai_client.py
+│   │   ├── build_prompt.py
+│   │   ├── extract_solution.py
+│   │   └── parse_response.py
+│   ├── repository/
+│   │   ├── __init__.py
+│   │   ├── challenge_repository.py
+│   │   └── file_repository.py
+│   └── ui/
+│       ├── __init__.py
+│       └── reporter.py
+│
 ├── data/
-├── config/
-└── cli.py
-
+│   └── Retos_programacion.json
+│
+├── tests/
+│   ├── __init__.py
+│   └── test_cli.py
+│
+├── pyproject.toml
+└── README.md
 ```
 
+## Running Tests
+
+Run unit tests with `unittest`:
+
+```bash
+python -m unittest discover -s tests
+```
 
 ## Technologies
 
-- Python
+- Python 3.10+
 - JSON for challenge data
 - Google Gemini API for automated code review
-- dotenv for environment variable management
-
-## Roadmap
-
-- PostgreSQL statistics
-- Local AI providers (Ollama)
-- Multi-language support
-- PyPI package
-- GitHub Actions CI/CD
-- Unit tests
+- `python-dotenv` for environment variable management
+- `setuptools` for packaging and CLI entrypoint
 
 ## License
 
-This project is currently unlicensed. If you want to publish or share it publicly, consider adding a LICENSE file.
+This project is currently unlicensed.

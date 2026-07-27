@@ -1,23 +1,20 @@
-# pylint: disable = E0401,C0403,W0611,C0413,C0412,C0114,W0511,E0402
 import os
 from dotenv import load_dotenv
-from google import genai
 
 load_dotenv()
 
-
-Debug = os.environ.get("DEBUG", "").lower() == "true"
+def is_debug() -> bool:
+    return os.environ.get("DEBUG", "").lower() == "true"
 
 
 def review_code(prompt: str) -> str:
-    '''# Send prompt with the code and recive the response
+    '''Send prompt with the code and receive response from AI client.
     Args:
-        prompt: Recive the answer to send AI
+        prompt: The prompt to send to AI
     Returns:
-        str with the corrections and another info.
+        str with JSON response containing corrections and metrics.
     '''
-    
-    if Debug:
+    if is_debug():
         return """
     {
     "score": 8.7,
@@ -40,8 +37,8 @@ def review_code(prompt: str) -> str:
     ]
     }
     """
+    from google import genai
     client = genai.Client(api_key=os.environ.get("API_KEY"))
-    
     interaction = client.interactions.create(
         model="gemini-2.0-flash", input=prompt)
     return interaction.output_text

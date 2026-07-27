@@ -4,30 +4,29 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 CHALLENGES_PATH = os.path.abspath(os.path.join(
-    BASE_DIR, "..", "data", "Retos_programacion.json"))
+    BASE_DIR, "..", "..", "data", "Retos_programacion.json"))
 
 
 def find_challenge(number: int) -> dict:
-    '''# Find a from json and return a object
+    '''Find a challenge from JSON catalog and return info dictionary.
         Args:
             number: The number of the challenge.
         Returns:
-            The challenge info in order of objects.
+            The challenge info dict.
     '''
+    if not os.path.exists(CHALLENGES_PATH):
+        return {}
 
     with open(CHALLENGES_PATH, "r", encoding="utf-8") as challenges:
         challenge = json.load(challenges)
-        number = str(number)
+        number_str = str(number)
         try:
             challenge_info = {
                 "number": int(number),
-                "name": challenge[number]["name"],
-                "dificulty": challenge[number]["dificulty"],
-                "description": challenge[number]["description"]
+                "name": challenge[number_str]["name"],
+                "dificulty": challenge[number_str]["dificulty"],
+                "description": challenge[number_str]["description"]
             }
             return challenge_info
         except KeyError:
             return {}
-
-
-# print(find_challenge(9))

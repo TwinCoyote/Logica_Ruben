@@ -2,15 +2,13 @@ import os
 
 
 def solution_scrapper(path: str) -> str:
-    '''# Extract the solution and return a code in str format
+    '''Extract the solution and return code in str format
     Args:
-        path: Path from the file
+        path: Path to the file
     Returns:
         str with all the code solution from the user
     '''
-    base_dir = os.path.dirname(__file__)
-    resolved_path = path if os.path.isabs(
-        path) else os.path.abspath(os.path.join(base_dir, path))
+    resolved_path = os.path.abspath(path)
 
     if not os.path.exists(resolved_path):
         return ""
