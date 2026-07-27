@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from google import genai
 
 load_dotenv()
-client = genai.Client(api_key=os.environ.get("API_KEY"))
+
 
 Debug = os.environ.get("DEBUG", "").lower() == "true"
 
@@ -16,6 +16,7 @@ def review_code(prompt: str) -> str:
     Returns:
         str with the corrections and another info.
     '''
+    
     if Debug:
         return """
     {
@@ -39,7 +40,8 @@ def review_code(prompt: str) -> str:
     ]
     }
     """
-
+    client = genai.Client(api_key=os.environ.get("API_KEY"))
+    
     interaction = client.interactions.create(
         model="gemini-2.0-flash", input=prompt)
     return interaction.output_text
